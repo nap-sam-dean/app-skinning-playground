@@ -9,7 +9,7 @@
 import Foundation
 
 
-extension UIColor {
+extension UIColor: UIColorSkin {
 
     public static let title = UIColor.red
 }

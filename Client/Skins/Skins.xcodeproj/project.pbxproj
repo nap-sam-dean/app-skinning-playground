@@ -15,6 +15,8 @@
 		E54475981F1819AC00F71AE5 /* Skin.h in Headers */ = {isa = PBXBuildFile; fileRef = E544758A1F1819AC00F71AE5 /* Skin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E54475AE1F181A7E00F71AE5 /* UIColor+skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54475AD1F181A7E00F71AE5 /* UIColor+skin.swift */; };
 		E54475B01F181A9C00F71AE5 /* UIColor+skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54475AF1F181A9C00F71AE5 /* UIColor+skin.swift */; };
+		E54475F81F18289900F71AE5 /* UIColorSkinProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54475F71F18289900F71AE5 /* UIColorSkinProtocol.swift */; };
+		E54475F91F18289900F71AE5 /* UIColorSkinProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54475F71F18289900F71AE5 /* UIColorSkinProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		E54475971F1819AC00F71AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E54475AD1F181A7E00F71AE5 /* UIColor+skin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+skin.swift"; sourceTree = "<group>"; };
 		E54475AF1F181A9C00F71AE5 /* UIColor+skin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+skin.swift"; sourceTree = "<group>"; };
+		E54475F71F18289900F71AE5 /* UIColorSkinProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorSkinProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,7 @@
 		E544751A1F18122700F71AE5 = {
 			isa = PBXGroup;
 			children = (
+				E54475F61F18288400F71AE5 /* Common */,
 				E54475891F1819AC00F71AE5 /* Skin1 */,
 				E54475941F1819AC00F71AE5 /* Skin1Tests */,
 				E544754D1F18133400F71AE5 /* Skin2 */,
@@ -143,6 +147,14 @@
 				E54475971F1819AC00F71AE5 /* Info.plist */,
 			);
 			path = Skin1Tests;
+			sourceTree = "<group>";
+		};
+		E54475F61F18288400F71AE5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E54475F71F18289900F71AE5 /* UIColorSkinProtocol.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,6 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E54475F91F18289900F71AE5 /* UIColorSkinProtocol.swift in Sources */,
 				E54475B01F181A9C00F71AE5 /* UIColor+skin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +357,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E54475F81F18289900F71AE5 /* UIColorSkinProtocol.swift in Sources */,
 				E54475AE1F181A7E00F71AE5 /* UIColor+skin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -638,6 +652,7 @@
 				E544755F1F18133400F71AE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E54475601F18133400F71AE5 /* Build configuration list for PBXNativeTarget "Skin2Tests" */ = {
 			isa = XCConfigurationList;
@@ -646,6 +661,7 @@
 				E54475621F18133400F71AE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E54475991F1819AC00F71AE5 /* Build configuration list for PBXNativeTarget "Skin1" */ = {
 			isa = XCConfigurationList;
@@ -654,6 +670,7 @@
 				E544759B1F1819AC00F71AE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E544759C1F1819AC00F71AE5 /* Build configuration list for PBXNativeTarget "Skin1Tests" */ = {
 			isa = XCConfigurationList;
@@ -662,6 +679,7 @@
 				E544759E1F1819AC00F71AE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
