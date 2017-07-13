@@ -18,6 +18,8 @@
 		E54475751F1813E200F71AE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E54475031F1811DC00F71AE5 /* LaunchScreen.storyboard */; };
 		E54475761F1813E200F71AE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E54475011F1811DC00F71AE5 /* Assets.xcassets */; };
 		E54475771F1813E200F71AE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E54474FE1F1811DC00F71AE5 /* Main.storyboard */; };
+		E54475A81F1819E700F71AE5 /* Skin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E54475A21F1819D000F71AE5 /* Skin.framework */; };
+		E54475B71F18230100F71AE5 /* Skin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E54475A21F1819D000F71AE5 /* Skin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,27 +29,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = E54474F61F1811DC00F71AE5;
 			remoteInfo = Client;
-		};
-		E54475431F18122800F71AE5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E544753E1F18122700F71AE5 /* Skins.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E54475241F18122700F71AE5;
-			remoteInfo = Skins;
-		};
-		E54475451F18122800F71AE5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E544753E1F18122700F71AE5 /* Skins.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E544752D1F18122700F71AE5;
-			remoteInfo = SkinsTests;
-		};
-		E54475631F18135300F71AE5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E544753E1F18122700F71AE5 /* Skins.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = E54475231F18122700F71AE5;
-			remoteInfo = Skin1;
 		};
 		E54475691F18135300F71AE5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -70,6 +51,27 @@
 			remoteGlobalIDString = E544754B1F18133300F71AE5;
 			remoteInfo = Skin2;
 		};
+		E54475A11F1819D000F71AE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E544753E1F18122700F71AE5 /* Skins.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E54475881F1819AC00F71AE5;
+			remoteInfo = Skin1;
+		};
+		E54475A31F1819D000F71AE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E544753E1F18122700F71AE5 /* Skins.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E54475901F1819AC00F71AE5;
+			remoteInfo = Skin1Tests;
+		};
+		E54475B81F18230600F71AE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E544753E1F18122700F71AE5 /* Skins.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E54475871F1819AC00F71AE5;
+			remoteInfo = Skin1;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -79,13 +81,13 @@
 		E54474FF1F1811DC00F71AE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E54475011F1811DC00F71AE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E54475041F1811DC00F71AE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E54475061F1811DC00F71AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E54475061F1811DC00F71AE5 /* Info-Client1.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Client1.plist"; sourceTree = "<group>"; };
 		E544750B1F1811DC00F71AE5 /* ClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E544750F1F1811DC00F71AE5 /* ClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientTests.swift; sourceTree = "<group>"; };
 		E54475111F1811DC00F71AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E544753E1F18122700F71AE5 /* Skins.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Skins.xcodeproj; path = Skins/Skins.xcodeproj; sourceTree = "<group>"; };
 		E544757B1F1813E200F71AE5 /* Client2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Client2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E544757C1F1813E200F71AE5 /* Client1 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Client1 copy-Info.plist"; path = "/Users/s.dean/Documents/nap/Skins/Client/Client1 copy-Info.plist"; sourceTree = "<absolute>"; };
+		E54475BD1F18245E00F71AE5 /* Info-Client2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Client2.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E54475B71F18230100F71AE5 /* Skin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E54475A81F1819E700F71AE5 /* Skin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +124,6 @@
 				E54474F91F1811DC00F71AE5 /* Client */,
 				E544750E1F1811DC00F71AE5 /* ClientTests */,
 				E54474F81F1811DC00F71AE5 /* Products */,
-				E544757C1F1813E200F71AE5 /* Client1 copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,7 +145,8 @@
 				E54474FE1F1811DC00F71AE5 /* Main.storyboard */,
 				E54475011F1811DC00F71AE5 /* Assets.xcassets */,
 				E54475031F1811DC00F71AE5 /* LaunchScreen.storyboard */,
-				E54475061F1811DC00F71AE5 /* Info.plist */,
+				E54475061F1811DC00F71AE5 /* Info-Client1.plist */,
+				E54475BD1F18245E00F71AE5 /* Info-Client2.plist */,
 			);
 			path = Client;
 			sourceTree = "<group>";
@@ -159,9 +163,9 @@
 		E544753F1F18122700F71AE5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E54475441F18122800F71AE5 /* Skins.framework */,
-				E54475461F18122800F71AE5 /* SkinsTests.xctest */,
-				E544756A1F18135300F71AE5 /* Skin2.framework */,
+				E54475A21F1819D000F71AE5 /* Skin.framework */,
+				E54475A41F1819D000F71AE5 /* Skin1Tests.xctest */,
+				E544756A1F18135300F71AE5 /* Skin.framework */,
 				E544756C1F18135300F71AE5 /* Skin2Tests.xctest */,
 			);
 			name = Products;
@@ -181,7 +185,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E54475641F18135300F71AE5 /* PBXTargetDependency */,
+				E54475B91F18230600F71AE5 /* PBXTargetDependency */,
 			);
 			name = Client1;
 			productName = Client;
@@ -277,24 +281,10 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		E54475441F18122800F71AE5 /* Skins.framework */ = {
+		E544756A1F18135300F71AE5 /* Skin.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = Skins.framework;
-			remoteRef = E54475431F18122800F71AE5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		E54475461F18122800F71AE5 /* SkinsTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SkinsTests.xctest;
-			remoteRef = E54475451F18122800F71AE5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		E544756A1F18135300F71AE5 /* Skin2.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Skin2.framework;
+			path = Skin.framework;
 			remoteRef = E54475691F18135300F71AE5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -303,6 +293,20 @@
 			fileType = wrapper.cfbundle;
 			path = Skin2Tests.xctest;
 			remoteRef = E544756B1F18135300F71AE5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E54475A21F1819D000F71AE5 /* Skin.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Skin.framework;
+			remoteRef = E54475A11F1819D000F71AE5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E54475A41F1819D000F71AE5 /* Skin1Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Skin1Tests.xctest;
+			remoteRef = E54475A31F1819D000F71AE5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -372,15 +376,15 @@
 			target = E54474F61F1811DC00F71AE5 /* Client1 */;
 			targetProxy = E544750C1F1811DC00F71AE5 /* PBXContainerItemProxy */;
 		};
-		E54475641F18135300F71AE5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Skin1;
-			targetProxy = E54475631F18135300F71AE5 /* PBXContainerItemProxy */;
-		};
 		E544757E1F1813F000F71AE5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Skin2;
 			targetProxy = E544757D1F1813F000F71AE5 /* PBXContainerItemProxy */;
+		};
+		E54475B91F18230600F71AE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Skin1;
+			targetProxy = E54475B81F18230600F71AE5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -504,7 +508,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7BEG3JX5ZY;
-				INFOPLIST_FILE = Client/Info.plist;
+				INFOPLIST_FILE = "Client/Info-Client1.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.samdean.Client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -517,7 +521,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7BEG3JX5ZY;
-				INFOPLIST_FILE = Client/Info.plist;
+				INFOPLIST_FILE = "Client/Info-Client1.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.samdean.Client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -560,7 +564,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7BEG3JX5ZY;
-				INFOPLIST_FILE = "Client1 copy-Info.plist";
+				INFOPLIST_FILE = "Client/Info-Client2.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.samdean.Client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -573,7 +577,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7BEG3JX5ZY;
-				INFOPLIST_FILE = "Client1 copy-Info.plist";
+				INFOPLIST_FILE = "Client/Info-Client2.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.samdean.Client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -600,6 +604,7 @@
 				E54475161F1811DC00F71AE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E54475171F1811DC00F71AE5 /* Build configuration list for PBXNativeTarget "ClientTests" */ = {
 			isa = XCConfigurationList;
@@ -608,6 +613,7 @@
 				E54475191F1811DC00F71AE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E54475781F1813E200F71AE5 /* Build configuration list for PBXNativeTarget "Client2" */ = {
 			isa = XCConfigurationList;
