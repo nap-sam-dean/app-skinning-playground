@@ -1,0 +1,6 @@
+framework module Skin {
+  umbrella header "Skins-Core-Skin2-umbrella.h"
+
+  export *
+  module * { export * }
+}

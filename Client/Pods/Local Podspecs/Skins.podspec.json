@@ -1,0 +1,47 @@
+{
+  "name": "Skins",
+  "version": "0.1.0",
+  "summary": "A short description of Skins.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/nap-sam-dean/Skins",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nap-sam-dean": "sam.dean@net-a-porter.com"
+  },
+  "source": {
+    "git": "https://github.com/nap-sam-dean/Skins.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": null
+  },
+  "module_name": "Skin",
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "Skins/Classes/Core/**/*",
+      "frameworks": "UIKit"
+    },
+    {
+      "name": "Skin1",
+      "dependencies": {
+        "Skins/Core": [
+
+        ]
+      },
+      "source_files": "Skins/Classes/Skin1/**/*"
+    },
+    {
+      "name": "Skin2",
+      "dependencies": {
+        "Skins/Core": [
+
+        ]
+      },
+      "source_files": "Skins/Classes/Skin2/**/*"
+    }
+  ]
+}

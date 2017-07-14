@@ -1,0 +1,21 @@
+PODS:
+  - Skins/Core (0.1.0)
+  - Skins/Skin1 (0.1.0):
+    - Skins/Core
+  - Skins/Skin2 (0.1.0):
+    - Skins/Core
+
+DEPENDENCIES:
+  - Skins/Skin1 (from `../Skins/`)
+  - Skins/Skin2 (from `../Skins/`)
+
+EXTERNAL SOURCES:
+  Skins:
+    :path: "../Skins/"
+
+SPEC CHECKSUMS:
+  Skins: 1d9d2d7fdcf307a26578c23fa1d4909930b76672
+
+PODFILE CHECKSUM: 0d134b85c86584ad55ec2637fc48ac5ad939c5a8
+
+COCOAPODS: 1.2.1

@@ -1,0 +1,14 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'Client1' do
+
+    pod 'Skins/Skin1', :path => '../Skins/'
+
+end
+
+target 'Client2' do
+
+    pod 'Skins/Skin2', :path => '../Skins/'
+
+end

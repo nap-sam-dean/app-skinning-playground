@@ -1,0 +1,6 @@
+framework module Skin {
+  umbrella header "Skins-umbrella.h"
+
+  export *
+  module * { export * }
+}
