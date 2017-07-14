@@ -33,16 +33,19 @@ TODO: Add long description of the pod here.
   s.module_name = 'Skin'
 
   s.subspec 'Core' do |ss|
+    ss.ios.deployment_target = '9.0'
     ss.source_files = 'Skins/Classes/Core/**/*'
     ss.frameworks = 'UIKit'
   end
 
   s.subspec 'Skin1' do |ss|
+    ss.ios.deployment_target = '9.0'
     ss.dependency 'Skins/Core'
     ss.source_files = 'Skins/Classes/Skin1/**/*'
   end
 
   s.subspec 'Skin2' do |ss|
+    ss.ios.deployment_target = '9.0'
     ss.dependency 'Skins/Core'
     ss.source_files = 'Skins/Classes/Skin2/**/*'
   end
