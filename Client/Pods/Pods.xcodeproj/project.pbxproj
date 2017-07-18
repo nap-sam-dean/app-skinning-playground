@@ -7,187 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B2BCDB82E5BB40D77C4A940E705E80F /* UIColor+skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF26C0723B3A67CECF683C71BE578590 /* UIColor+skin.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		0F627802D2911E0CC99B0E9941B12C14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		114C4C0A802F69D1FB2F830CD4B09AF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		1952EF963A5E9F11B5D468B07E7BDF8A /* Skins-Core-Skin1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D317596EFA2ABA488285A8376D83031 /* Skins-Core-Skin1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B4C2BB845D2761396F4EF7BB3EF8AE8 /* Skins-Core-Skin2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75DFD7B27734F49AD688594BBAD00DD2 /* Skins-Core-Skin2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B76CAA85AEBAF2CFA21EA100FC99B4B /* Pods-Client1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 377B2640954A5CDB082BBD5B1A545A36 /* Pods-Client1-dummy.m */; };
-		33A095220A1FCD61695792EF1610A4D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		39E97963FACE512D1C935FC4583076FE /* Pods-Client2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6981E9C5667651B948B243617EE22687 /* Pods-Client2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A3BB1887E27B3F2392F76FEB8FA5B3E /* Pods-Client2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C732B88B1A768958F45C9CDCC44FFD /* Pods-Client2-dummy.m */; };
-		4E7894811E1C0CAD710A1CEA2BB2FAA0 /* UIColor+skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16C695FA87ED6BF35DBDC91F2842EC4 /* UIColor+skin.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		6BCBABC9726881A1AD9A8D0F8131091D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		779C3E955EF79B5DBE21D4E12AEC1BB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		86FBA7DC33284412E539AA993BCA2144 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		A5DF2ECE3E4182ED44A68749611C3AD8 /* Skins-Core-Skin2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B95B246BED3891CAEA71350DBD4192 /* Skins-Core-Skin2-dummy.m */; };
-		AB4417B421E4AE31984A5614E04AA405 /* Pods-Client1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86F02D3AEFE6895A831E5FEABA67F730 /* Pods-Client1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC374A92400510C3EF037DE76093FD2E /* Skins-Core-Skin1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B734DDBBB76AD3322D39AAE983DDDC2C /* Skins-Core-Skin1-dummy.m */; };
-		C08AEF751586F1B74F4E8CCA1FAEBE47 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3158EE65D87C324AF3163F1CBD1F145F /* ReplaceMe.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F3D4AAA520C1E28D3AF93A20196707D4 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3158EE65D87C324AF3163F1CBD1F145F /* ReplaceMe.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0AA8FD1F8CEB6AF9764BAC23B496146C /* Skins-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02F1DFFAE4CB65E080970EB4488C936D /* Skins-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D4D797DBE0C3F12472C6BFCB4C3E530 /* RedSkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501621117E4E755C9EEE824806077531 /* RedSkin.swift */; };
+		642CB40102A97559356F0C48575F9A64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		93CBECA9499D0424292CD2FB468A4C5D /* Skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098ADAE1A5998F9E918D21BB7281BCE8 /* Skin.swift */; };
+		9A7AE194829CF36EBC58B1890F9567D8 /* Skins-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBB7C9A40369122CC6F0BFA891D095C /* Skins-dummy.m */; };
+		A184E3FF397579DF5710A1ECBE58AB67 /* GreenSkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262C734007AC5FFBDA0550E402B4DBA9 /* GreenSkin.swift */; };
+		A6B428EADE54645411DD4986ED4CBBA8 /* Pods-Client1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 491D13A7BE3E56944454132DF8CE24DD /* Pods-Client1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0E97B9E2727DD6B96DB4C6BCDF56942 /* Pods-Client1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3C1920384336C7AF9298039B4E0AE6 /* Pods-Client1-dummy.m */; };
+		B43BC8D435CAE95655539D9C21ADA241 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		C322AFE825F23AF2D01CD34A1D0DA515 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B53A6D098B3EAD16E92334B0A1055438 /* PBXContainerItemProxy */ = {
+		CB14467D6E48E9A5B87C4410712B15DE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7F6DC98CB7BBFCE53F6B3BFDDDE587EE;
-			remoteInfo = "Skins-Core-Skin2";
-		};
-		DCDA3CDE6BC613B8444AAAAA794EB435 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0C446013EDEAE6657AABE629833953D2;
-			remoteInfo = "Skins-Core-Skin1";
+			remoteGlobalIDString = 6FE6CCF2AB2834C593CCC4739FE813A3;
+			remoteInfo = Skins;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01A31DF183DB54AFBD80F1492B72BB53 /* Skins-Core-Skin2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "Skins-Core-Skin2.modulemap"; path = "../Skins-Core-Skin2/Skins-Core-Skin2.modulemap"; sourceTree = "<group>"; };
-		12D6395BC9CC3CCBB6E661ACC9E58FB6 /* Pods-Client2-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Client2-acknowledgements.plist"; sourceTree = "<group>"; };
-		141F288D96A914022C54930DA2A82033 /* Pods-Client1-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Client1-acknowledgements.plist"; sourceTree = "<group>"; };
-		14B2143FBE23004C18CB792845F53BDC /* Pods_Client1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Client1.framework; path = "Pods-Client1.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C161744BBB2DA0412CAEBA5EE2AF5B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3158EE65D87C324AF3163F1CBD1F145F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
-		3731FEC981E9F2D377560C8A85FF9237 /* Pods-Client2-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Client2-frameworks.sh"; sourceTree = "<group>"; };
-		377B2640954A5CDB082BBD5B1A545A36 /* Pods-Client1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Client1-dummy.m"; sourceTree = "<group>"; };
-		413E0932C0467119ED3C40CE8A5D66E7 /* Skins-Core-Skin1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Skins-Core-Skin1.modulemap"; sourceTree = "<group>"; };
-		4FE0E84420DBDE8CF392D58D28A89C78 /* Pods-Client1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Client1.modulemap"; sourceTree = "<group>"; };
-		66A92C8A57AE16B2DB478495310BDABB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6981E9C5667651B948B243617EE22687 /* Pods-Client2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Client2-umbrella.h"; sourceTree = "<group>"; };
-		6B62FF770C246A1381EA5B2EFFA4E455 /* Pods-Client1-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Client1-frameworks.sh"; sourceTree = "<group>"; };
-		6D317596EFA2ABA488285A8376D83031 /* Skins-Core-Skin1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Skins-Core-Skin1-umbrella.h"; sourceTree = "<group>"; };
-		75DFD7B27734F49AD688594BBAD00DD2 /* Skins-Core-Skin2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Skins-Core-Skin2-umbrella.h"; path = "../Skins-Core-Skin2/Skins-Core-Skin2-umbrella.h"; sourceTree = "<group>"; };
-		787A65E1A2E5BC8C4D51F462027D9549 /* Pods-Client2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Client2.modulemap"; sourceTree = "<group>"; };
-		839B68049D7293A772D09AA57B3C846B /* Pods-Client2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Client2.debug.xcconfig"; sourceTree = "<group>"; };
-		85C732B88B1A768958F45C9CDCC44FFD /* Pods-Client2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Client2-dummy.m"; sourceTree = "<group>"; };
-		86F02D3AEFE6895A831E5FEABA67F730 /* Pods-Client1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Client1-umbrella.h"; sourceTree = "<group>"; };
-		89360F47BE8A05BA30FC3329434B92E2 /* Pods-Client1-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Client1-acknowledgements.markdown"; sourceTree = "<group>"; };
-		89B95B246BED3891CAEA71350DBD4192 /* Skins-Core-Skin2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Skins-Core-Skin2-dummy.m"; path = "../Skins-Core-Skin2/Skins-Core-Skin2-dummy.m"; sourceTree = "<group>"; };
-		8B7B8435089D82B185887F72D1A80618 /* Pods-Client1-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Client1-resources.sh"; sourceTree = "<group>"; };
-		8C01D86826A99DA7CF2EC9619AF28AD4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		938C74D043ED0F6ABCD1E8160DD28E6D /* Skin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Skin.framework; path = "Skins-Core-Skin1.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F1DFFAE4CB65E080970EB4488C936D /* Skins-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Skins-umbrella.h"; sourceTree = "<group>"; };
+		098ADAE1A5998F9E918D21BB7281BCE8 /* Skin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Skin.swift; sourceTree = "<group>"; };
+		0FA3E9144AE535B6FA3A6A6555F607A6 /* Skins-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Skins-prefix.pch"; sourceTree = "<group>"; };
+		262C734007AC5FFBDA0550E402B4DBA9 /* GreenSkin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GreenSkin.swift; sourceTree = "<group>"; };
+		2FE1C256012E81023C99116ADB8BF8A6 /* Skins.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Skins.framework; path = Skins.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		317BC870B1084B83524ACFA0B43F5620 /* Pods-Client1-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Client1-resources.sh"; sourceTree = "<group>"; };
+		3563F43E9B0F746703E8A39793DFDF17 /* Skins.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Skins.modulemap; sourceTree = "<group>"; };
+		36C53326BF530ED21ABBE21AF91662A7 /* Pods-Client1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Client1.debug.xcconfig"; sourceTree = "<group>"; };
+		3CBB7C9A40369122CC6F0BFA891D095C /* Skins-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Skins-dummy.m"; sourceTree = "<group>"; };
+		3D84A3DDF4FA86B4930E4E02D367EE84 /* Pods-Client1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Client1.modulemap"; sourceTree = "<group>"; };
+		3F94A633AB52071BB526EBF9C2207081 /* Pods_Client1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Client1.framework; path = "Pods-Client1.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E83F4D33DDB279B91CD330576B741D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		491D13A7BE3E56944454132DF8CE24DD /* Pods-Client1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Client1-umbrella.h"; sourceTree = "<group>"; };
+		501621117E4E755C9EEE824806077531 /* RedSkin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RedSkin.swift; sourceTree = "<group>"; };
+		7A3C1920384336C7AF9298039B4E0AE6 /* Pods-Client1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Client1-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		990CD0278A14B5D8AE4896EE11802A66 /* Pods-Client2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Client2.release.xcconfig"; sourceTree = "<group>"; };
-		9F6471BC29FA1825EF46F491653983CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Skins-Core-Skin2/Info.plist"; sourceTree = "<group>"; };
-		A3DD7DABCE350ADF00FBE412732A654F /* Pods-Client2-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Client2-resources.sh"; sourceTree = "<group>"; };
-		AB53529DD14C7F171E97A6F253CC2107 /* Pods_Client2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Client2.framework; path = "Pods-Client2.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF26C0723B3A67CECF683C71BE578590 /* UIColor+skin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+skin.swift"; sourceTree = "<group>"; };
+		B4FBEC553A59AC546216EDED26717617 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B734DDBBB76AD3322D39AAE983DDDC2C /* Skins-Core-Skin1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Skins-Core-Skin1-dummy.m"; sourceTree = "<group>"; };
-		C16C695FA87ED6BF35DBDC91F2842EC4 /* UIColor+skin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+skin.swift"; sourceTree = "<group>"; };
-		C459304B963E596F30F35BB3CB327AD6 /* Skins-Core-Skin2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Skins-Core-Skin2.xcconfig"; path = "../Skins-Core-Skin2/Skins-Core-Skin2.xcconfig"; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DA59E7F8FDA75FA5EC8859EEFFA8D6EE /* Skin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Skin.framework; path = "Skins-Core-Skin2.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA60C28E4FDFE2669AF4843CC395BCAA /* Skins-Core-Skin1-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Skins-Core-Skin1-prefix.pch"; sourceTree = "<group>"; };
-		E06B77C098B578BFA1032590BE1FB33B /* Skins-Core-Skin1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Skins-Core-Skin1.xcconfig"; sourceTree = "<group>"; };
-		E33057B38DB163997F50D7928EB6277A /* Skins-Core-Skin2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Skins-Core-Skin2-prefix.pch"; path = "../Skins-Core-Skin2/Skins-Core-Skin2-prefix.pch"; sourceTree = "<group>"; };
-		E5D63EE99203447D6A47DDD43FD04CA3 /* Pods-Client1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Client1.release.xcconfig"; sourceTree = "<group>"; };
-		E74679B4C56F4D231819CCDE84E68A56 /* Pods-Client1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Client1.debug.xcconfig"; sourceTree = "<group>"; };
-		FBD410047A3A0667C34C2261ED115671 /* Pods-Client2-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Client2-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DBFA6815485F8C98153AE4E6F31198B4 /* Pods-Client1-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Client1-acknowledgements.plist"; sourceTree = "<group>"; };
+		DCCE088494BC957E6AB302A6C975AC39 /* Pods-Client1-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Client1-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E273704BB5120AEAB426B9EF1CEF8CAC /* Pods-Client1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Client1.release.xcconfig"; sourceTree = "<group>"; };
+		EC551DA79A9B500CCEC5E9DA4FE3A48E /* Skins.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Skins.xcconfig; sourceTree = "<group>"; };
+		FB53B4A17AAE0F10F7EAED9A09465FA7 /* Pods-Client1-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Client1-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1765DB132CC518E06F80402AFEB31789 /* Frameworks */ = {
+		065C03E801E344D85C61F766288167EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33A095220A1FCD61695792EF1610A4D6 /* Foundation.framework in Frameworks */,
-				779C3E955EF79B5DBE21D4E12AEC1BB2 /* UIKit.framework in Frameworks */,
+				642CB40102A97559356F0C48575F9A64 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE59A6F04F6E70BED873008AB161EAFA /* Frameworks */ = {
+		ED95AE7535627B0C09B6661C9A2371C4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F627802D2911E0CC99B0E9941B12C14 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F29649F4F51A8C0B6279D7C710882031 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				86FBA7DC33284412E539AA993BCA2144 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC125CC26886C2B30071292F5AD3A9FF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				114C4C0A802F69D1FB2F830CD4B09AF8 /* Foundation.framework in Frameworks */,
-				6BCBABC9726881A1AD9A8D0F8131091D /* UIKit.framework in Frameworks */,
+				B43BC8D435CAE95655539D9C21ADA241 /* Foundation.framework in Frameworks */,
+				C322AFE825F23AF2D01CD34A1D0DA515 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B090E21F2ACA124814DFEFE3EB7781D /* Skin1 */ = {
-			isa = PBXGroup;
-			children = (
-				9B5DE80AE2197F3FEF49D90585776E9A /* Skins */,
-			);
-			name = Skin1;
-			sourceTree = "<group>";
-		};
-		1FC9664F91302BD45D255315698D2FFC /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				20CB4D1C76BEA4D86BCB263DBFFFFFAC /* Pods-Client1 */,
-				9F26FDA5020FA405EFCE5571ED538A2E /* Pods-Client2 */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		20CB4D1C76BEA4D86BCB263DBFFFFFAC /* Pods-Client1 */ = {
-			isa = PBXGroup;
-			children = (
-				66A92C8A57AE16B2DB478495310BDABB /* Info.plist */,
-				4FE0E84420DBDE8CF392D58D28A89C78 /* Pods-Client1.modulemap */,
-				89360F47BE8A05BA30FC3329434B92E2 /* Pods-Client1-acknowledgements.markdown */,
-				141F288D96A914022C54930DA2A82033 /* Pods-Client1-acknowledgements.plist */,
-				377B2640954A5CDB082BBD5B1A545A36 /* Pods-Client1-dummy.m */,
-				6B62FF770C246A1381EA5B2EFFA4E455 /* Pods-Client1-frameworks.sh */,
-				8B7B8435089D82B185887F72D1A80618 /* Pods-Client1-resources.sh */,
-				86F02D3AEFE6895A831E5FEABA67F730 /* Pods-Client1-umbrella.h */,
-				E74679B4C56F4D231819CCDE84E68A56 /* Pods-Client1.debug.xcconfig */,
-				E5D63EE99203447D6A47DDD43FD04CA3 /* Pods-Client1.release.xcconfig */,
-			);
-			name = "Pods-Client1";
-			path = "Target Support Files/Pods-Client1";
-			sourceTree = "<group>";
-		};
-		26B1C06AA240BECCEBF620F546F22ED4 /* Skin2 */ = {
-			isa = PBXGroup;
-			children = (
-				AF26C0723B3A67CECF683C71BE578590 /* UIColor+skin.swift */,
-			);
-			name = Skin2;
-			path = Skin2;
-			sourceTree = "<group>";
-		};
 		2897FAF68A451209AB484E7FD19FC587 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				64D18CB4D3E0D449349992ABF967FF7C /* Skins */,
+				EC62D04D95FF3B678BFD613CE6DE5061 /* Skins */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		3B1117460E115D68BEECC32302F09CDE /* Products */ = {
+		2D932E41CC4D1B837AE711DB4F45A6DE /* Skin2 */ = {
 			isa = PBXGroup;
 			children = (
-				14B2143FBE23004C18CB792845F53BDC /* Pods_Client1.framework */,
-				AB53529DD14C7F171E97A6F253CC2107 /* Pods_Client2.framework */,
-				DA59E7F8FDA75FA5EC8859EEFFA8D6EE /* Skin.framework */,
-				938C74D043ED0F6ABCD1E8160DD28E6D /* Skin.framework */,
+				262C734007AC5FFBDA0550E402B4DBA9 /* GreenSkin.swift */,
 			);
-			name = Products;
+			name = Skin2;
+			path = Skin2;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -207,51 +111,54 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		50F913B7A73D871B4304C50A5D6D336B /* Skins */ = {
+		499DAD525673081E1ED5DD9F3F151BA3 /* Pods-Client1 */ = {
 			isa = PBXGroup;
 			children = (
-				DA47B076D8E589C5BD4D13285AFD19F8 /* Classes */,
+				40E83F4D33DDB279B91CD330576B741D /* Info.plist */,
+				3D84A3DDF4FA86B4930E4E02D367EE84 /* Pods-Client1.modulemap */,
+				DCCE088494BC957E6AB302A6C975AC39 /* Pods-Client1-acknowledgements.markdown */,
+				DBFA6815485F8C98153AE4E6F31198B4 /* Pods-Client1-acknowledgements.plist */,
+				7A3C1920384336C7AF9298039B4E0AE6 /* Pods-Client1-dummy.m */,
+				FB53B4A17AAE0F10F7EAED9A09465FA7 /* Pods-Client1-frameworks.sh */,
+				317BC870B1084B83524ACFA0B43F5620 /* Pods-Client1-resources.sh */,
+				491D13A7BE3E56944454132DF8CE24DD /* Pods-Client1-umbrella.h */,
+				36C53326BF530ED21ABBE21AF91662A7 /* Pods-Client1.debug.xcconfig */,
+				E273704BB5120AEAB426B9EF1CEF8CAC /* Pods-Client1.release.xcconfig */,
 			);
-			name = Skins;
-			path = Skins;
+			name = "Pods-Client1";
+			path = "Target Support Files/Pods-Client1";
 			sourceTree = "<group>";
 		};
-		64D18CB4D3E0D449349992ABF967FF7C /* Skins */ = {
+		4C689260280A5DC9AD0E15D9F1590879 /* Skin1 */ = {
 			isa = PBXGroup;
 			children = (
-				72C099D96BC21F15BDBEF85739AA6C3F /* Core */,
-				1B090E21F2ACA124814DFEFE3EB7781D /* Skin1 */,
-				D10B72131033C80E6CFCCA873FAACE6E /* Skin2 */,
-				DE638B5181FC4991531938995BA5E49F /* Support Files */,
-			);
-			name = Skins;
-			path = ../../Skins;
-			sourceTree = "<group>";
-		};
-		72C099D96BC21F15BDBEF85739AA6C3F /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				50F913B7A73D871B4304C50A5D6D336B /* Skins */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		730AF9CCF0353248634C792771011404 /* Skin1 */ = {
-			isa = PBXGroup;
-			children = (
-				C16C695FA87ED6BF35DBDC91F2842EC4 /* UIColor+skin.swift */,
+				501621117E4E755C9EEE824806077531 /* RedSkin.swift */,
 			);
 			name = Skin1;
 			path = Skin1;
 			sourceTree = "<group>";
 		};
-		7535DFD60F831BAFD58A2AEC4EA88D18 /* Core */ = {
+		5D3134049079AC6A1D07FA7835225BD6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3158EE65D87C324AF3163F1CBD1F145F /* ReplaceMe.swift */,
+				B4FBEC553A59AC546216EDED26717617 /* Info.plist */,
+				3563F43E9B0F746703E8A39793DFDF17 /* Skins.modulemap */,
+				EC551DA79A9B500CCEC5E9DA4FE3A48E /* Skins.xcconfig */,
+				3CBB7C9A40369122CC6F0BFA891D095C /* Skins-dummy.m */,
+				0FA3E9144AE535B6FA3A6A6555F607A6 /* Skins-prefix.pch */,
+				02F1DFFAE4CB65E080970EB4488C936D /* Skins-umbrella.h */,
 			);
-			name = Core;
-			path = Core;
+			name = "Support Files";
+			path = "../Client/Pods/Target Support Files/Skins";
+			sourceTree = "<group>";
+		};
+		77A5874EDCE167E2DE203838CE294C21 /* Skins */ = {
+			isa = PBXGroup;
+			children = (
+				A4F239ABF73D5EE9C18CD40E4EA0AB83 /* Classes */,
+			);
+			name = Skins;
+			path = Skins;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -260,208 +167,173 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				2897FAF68A451209AB484E7FD19FC587 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				3B1117460E115D68BEECC32302F09CDE /* Products */,
-				1FC9664F91302BD45D255315698D2FFC /* Targets Support Files */,
+				9FD485FB541698776976EA284BB21378 /* Products */,
+				E352E95CD01CC360F140CE2FAA3E8A32 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9B5DE80AE2197F3FEF49D90585776E9A /* Skins */ = {
+		839A293ACD565E8F39623901DE5F19A7 /* Skins */ = {
 			isa = PBXGroup;
 			children = (
-				D93D0400E418CA09E1532A9BD0F6E198 /* Classes */,
+				A9DB76F9F97E8E2CD84AD3613346C1C9 /* Classes */,
 			);
 			name = Skins;
 			path = Skins;
 			sourceTree = "<group>";
 		};
-		9F26FDA5020FA405EFCE5571ED538A2E /* Pods-Client2 */ = {
+		87BFD5A060FA715FF49770789B196EB4 /* Skin2 */ = {
 			isa = PBXGroup;
 			children = (
-				2C161744BBB2DA0412CAEBA5EE2AF5B3 /* Info.plist */,
-				787A65E1A2E5BC8C4D51F462027D9549 /* Pods-Client2.modulemap */,
-				FBD410047A3A0667C34C2261ED115671 /* Pods-Client2-acknowledgements.markdown */,
-				12D6395BC9CC3CCBB6E661ACC9E58FB6 /* Pods-Client2-acknowledgements.plist */,
-				85C732B88B1A768958F45C9CDCC44FFD /* Pods-Client2-dummy.m */,
-				3731FEC981E9F2D377560C8A85FF9237 /* Pods-Client2-frameworks.sh */,
-				A3DD7DABCE350ADF00FBE412732A654F /* Pods-Client2-resources.sh */,
-				6981E9C5667651B948B243617EE22687 /* Pods-Client2-umbrella.h */,
-				839B68049D7293A772D09AA57B3C846B /* Pods-Client2.debug.xcconfig */,
-				990CD0278A14B5D8AE4896EE11802A66 /* Pods-Client2.release.xcconfig */,
-			);
-			name = "Pods-Client2";
-			path = "Target Support Files/Pods-Client2";
-			sourceTree = "<group>";
-		};
-		D10B72131033C80E6CFCCA873FAACE6E /* Skin2 */ = {
-			isa = PBXGroup;
-			children = (
-				F8D8F53BBB8E36B312A7608A1E02A4C8 /* Skins */,
+				839A293ACD565E8F39623901DE5F19A7 /* Skins */,
 			);
 			name = Skin2;
 			sourceTree = "<group>";
 		};
-		D93D0400E418CA09E1532A9BD0F6E198 /* Classes */ = {
+		90C385BCBFF4955FFCBDDD18CE0B2381 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				730AF9CCF0353248634C792771011404 /* Skin1 */,
+				C84D712BAB066CC4E44EAE7F218EFDEC /* Core */,
 			);
 			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		DA47B076D8E589C5BD4D13285AFD19F8 /* Classes */ = {
+		9FD485FB541698776976EA284BB21378 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7535DFD60F831BAFD58A2AEC4EA88D18 /* Core */,
+				3F94A633AB52071BB526EBF9C2207081 /* Pods_Client1.framework */,
+				2FE1C256012E81023C99116ADB8BF8A6 /* Skins.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4F239ABF73D5EE9C18CD40E4EA0AB83 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4C689260280A5DC9AD0E15D9F1590879 /* Skin1 */,
 			);
 			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		DDB9F4E293420C21E1557CB58F807FF1 /* Classes */ = {
+		A9DB76F9F97E8E2CD84AD3613346C1C9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				26B1C06AA240BECCEBF620F546F22ED4 /* Skin2 */,
+				2D932E41CC4D1B837AE711DB4F45A6DE /* Skin2 */,
 			);
 			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		DE638B5181FC4991531938995BA5E49F /* Support Files */ = {
+		B0A52592EED42F4A34AE46E58A975A8C /* Skins */ = {
 			isa = PBXGroup;
 			children = (
-				9F6471BC29FA1825EF46F491653983CF /* Info.plist */,
-				8C01D86826A99DA7CF2EC9619AF28AD4 /* Info.plist */,
-				413E0932C0467119ED3C40CE8A5D66E7 /* Skins-Core-Skin1.modulemap */,
-				E06B77C098B578BFA1032590BE1FB33B /* Skins-Core-Skin1.xcconfig */,
-				B734DDBBB76AD3322D39AAE983DDDC2C /* Skins-Core-Skin1-dummy.m */,
-				DA60C28E4FDFE2669AF4843CC395BCAA /* Skins-Core-Skin1-prefix.pch */,
-				6D317596EFA2ABA488285A8376D83031 /* Skins-Core-Skin1-umbrella.h */,
-				01A31DF183DB54AFBD80F1492B72BB53 /* Skins-Core-Skin2.modulemap */,
-				C459304B963E596F30F35BB3CB327AD6 /* Skins-Core-Skin2.xcconfig */,
-				89B95B246BED3891CAEA71350DBD4192 /* Skins-Core-Skin2-dummy.m */,
-				E33057B38DB163997F50D7928EB6277A /* Skins-Core-Skin2-prefix.pch */,
-				75DFD7B27734F49AD688594BBAD00DD2 /* Skins-Core-Skin2-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Client/Pods/Target Support Files/Skins-Core-Skin1";
-			sourceTree = "<group>";
-		};
-		F8D8F53BBB8E36B312A7608A1E02A4C8 /* Skins */ = {
-			isa = PBXGroup;
-			children = (
-				DDB9F4E293420C21E1557CB58F807FF1 /* Classes */,
+				90C385BCBFF4955FFCBDDD18CE0B2381 /* Classes */,
 			);
 			name = Skins;
 			path = Skins;
+			sourceTree = "<group>";
+		};
+		B3F21145CF92DB44FAE7CAFE6E4023F2 /* Skin1 */ = {
+			isa = PBXGroup;
+			children = (
+				77A5874EDCE167E2DE203838CE294C21 /* Skins */,
+			);
+			name = Skin1;
+			sourceTree = "<group>";
+		};
+		C84D712BAB066CC4E44EAE7F218EFDEC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				098ADAE1A5998F9E918D21BB7281BCE8 /* Skin.swift */,
+			);
+			name = Core;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CF04D7812C492D00E38849B4929C11BC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B0A52592EED42F4A34AE46E58A975A8C /* Skins */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		E352E95CD01CC360F140CE2FAA3E8A32 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				499DAD525673081E1ED5DD9F3F151BA3 /* Pods-Client1 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EC62D04D95FF3B678BFD613CE6DE5061 /* Skins */ = {
+			isa = PBXGroup;
+			children = (
+				CF04D7812C492D00E38849B4929C11BC /* Core */,
+				B3F21145CF92DB44FAE7CAFE6E4023F2 /* Skin1 */,
+				87BFD5A060FA715FF49770789B196EB4 /* Skin2 */,
+				5D3134049079AC6A1D07FA7835225BD6 /* Support Files */,
+			);
+			name = Skins;
+			path = ../../Skins;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		9517930ABCDAA42D2D42A78DA5682111 /* Headers */ = {
+		34F145E8BFBDB750F610BCE25116F127 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39E97963FACE512D1C935FC4583076FE /* Pods-Client2-umbrella.h in Headers */,
+				0AA8FD1F8CEB6AF9764BAC23B496146C /* Skins-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A15F1866D7A3345F4CD6EBBB0523A13B /* Headers */ = {
+		E2D8FC2963DCE776818B54701AA982DB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B4C2BB845D2761396F4EF7BB3EF8AE8 /* Skins-Core-Skin2-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C6B4900B3A7C12681D366A28C2571FE1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1952EF963A5E9F11B5D468B07E7BDF8A /* Skins-Core-Skin1-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E59D6F4CA3763DAB8284E84531A736D8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB4417B421E4AE31984A5614E04AA405 /* Pods-Client1-umbrella.h in Headers */,
+				A6B428EADE54645411DD4986ED4CBBA8 /* Pods-Client1-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0C446013EDEAE6657AABE629833953D2 /* Skins-Core-Skin1 */ = {
+		6FE6CCF2AB2834C593CCC4739FE813A3 /* Skins */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 48AA188B55A0F2CDC3C2625EF197B36B /* Build configuration list for PBXNativeTarget "Skins-Core-Skin1" */;
+			buildConfigurationList = 8A42DE0111F950BC04851FF6D6C05DCF /* Build configuration list for PBXNativeTarget "Skins" */;
 			buildPhases = (
-				71E56CA3E9BA919D6440A4C8426DA89A /* Sources */,
-				FC125CC26886C2B30071292F5AD3A9FF /* Frameworks */,
-				C6B4900B3A7C12681D366A28C2571FE1 /* Headers */,
+				F62BB8866999C7ECBB8CC69709D91402 /* Sources */,
+				ED95AE7535627B0C09B6661C9A2371C4 /* Frameworks */,
+				34F145E8BFBDB750F610BCE25116F127 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Skins-Core-Skin1";
-			productName = "Skins-Core-Skin1";
-			productReference = 938C74D043ED0F6ABCD1E8160DD28E6D /* Skin.framework */;
+			name = Skins;
+			productName = Skins;
+			productReference = 2FE1C256012E81023C99116ADB8BF8A6 /* Skins.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7E1296E21F3FBCD18A1C8FB6296343EB /* Pods-Client2 */ = {
+		D4F2564B7FF3D69C9FED3E53B78B9445 /* Pods-Client1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2B0600BC874874836A152EEAC67795D /* Build configuration list for PBXNativeTarget "Pods-Client2" */;
+			buildConfigurationList = EE237B16E58026BF2708421994F8B85C /* Build configuration list for PBXNativeTarget "Pods-Client1" */;
 			buildPhases = (
-				6CB2AE5C11405C05060FAC8690FFD474 /* Sources */,
-				F29649F4F51A8C0B6279D7C710882031 /* Frameworks */,
-				9517930ABCDAA42D2D42A78DA5682111 /* Headers */,
+				8EC0010C3B9EB107975B4D4AE6C27A3F /* Sources */,
+				065C03E801E344D85C61F766288167EB /* Frameworks */,
+				E2D8FC2963DCE776818B54701AA982DB /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				94A91D1AADEBC57E9B61A97DD00B7976 /* PBXTargetDependency */,
-			);
-			name = "Pods-Client2";
-			productName = "Pods-Client2";
-			productReference = AB53529DD14C7F171E97A6F253CC2107 /* Pods_Client2.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		7F6DC98CB7BBFCE53F6B3BFDDDE587EE /* Skins-Core-Skin2 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 55381211DEBBA4A4BE36FEB1AF00AB00 /* Build configuration list for PBXNativeTarget "Skins-Core-Skin2" */;
-			buildPhases = (
-				74668D69BA0001C0A9C5A7825FE84EAF /* Sources */,
-				1765DB132CC518E06F80402AFEB31789 /* Frameworks */,
-				A15F1866D7A3345F4CD6EBBB0523A13B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Skins-Core-Skin2";
-			productName = "Skins-Core-Skin2";
-			productReference = DA59E7F8FDA75FA5EC8859EEFFA8D6EE /* Skin.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DDC5E7027F24BB48BF53B5ED444B01F5 /* Pods-Client1 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1F4002005A86549070CC54DA74F351A8 /* Build configuration list for PBXNativeTarget "Pods-Client1" */;
-			buildPhases = (
-				2C79F304CD33CF5D859EB937315395F9 /* Sources */,
-				CE59A6F04F6E70BED873008AB161EAFA /* Frameworks */,
-				E59D6F4CA3763DAB8284E84531A736D8 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				325979B2405F8D722D6C0567E5D69C90 /* PBXTargetDependency */,
+				818F890DCFB6EED46C778BE126FA14CC /* PBXTargetDependency */,
 			);
 			name = "Pods-Client1";
 			productName = "Pods-Client1";
-			productReference = 14B2143FBE23004C18CB792845F53BDC /* Pods_Client1.framework */;
+			productReference = 3F94A633AB52071BB526EBF9C2207081 /* Pods_Client1.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -481,111 +353,48 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3B1117460E115D68BEECC32302F09CDE /* Products */;
+			productRefGroup = 9FD485FB541698776976EA284BB21378 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DDC5E7027F24BB48BF53B5ED444B01F5 /* Pods-Client1 */,
-				7E1296E21F3FBCD18A1C8FB6296343EB /* Pods-Client2 */,
-				0C446013EDEAE6657AABE629833953D2 /* Skins-Core-Skin1 */,
-				7F6DC98CB7BBFCE53F6B3BFDDDE587EE /* Skins-Core-Skin2 */,
+				D4F2564B7FF3D69C9FED3E53B78B9445 /* Pods-Client1 */,
+				6FE6CCF2AB2834C593CCC4739FE813A3 /* Skins */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2C79F304CD33CF5D859EB937315395F9 /* Sources */ = {
+		8EC0010C3B9EB107975B4D4AE6C27A3F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B76CAA85AEBAF2CFA21EA100FC99B4B /* Pods-Client1-dummy.m in Sources */,
+				B0E97B9E2727DD6B96DB4C6BCDF56942 /* Pods-Client1-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6CB2AE5C11405C05060FAC8690FFD474 /* Sources */ = {
+		F62BB8866999C7ECBB8CC69709D91402 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A3BB1887E27B3F2392F76FEB8FA5B3E /* Pods-Client2-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71E56CA3E9BA919D6440A4C8426DA89A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C08AEF751586F1B74F4E8CCA1FAEBE47 /* ReplaceMe.swift in Sources */,
-				BC374A92400510C3EF037DE76093FD2E /* Skins-Core-Skin1-dummy.m in Sources */,
-				4E7894811E1C0CAD710A1CEA2BB2FAA0 /* UIColor+skin.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		74668D69BA0001C0A9C5A7825FE84EAF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F3D4AAA520C1E28D3AF93A20196707D4 /* ReplaceMe.swift in Sources */,
-				A5DF2ECE3E4182ED44A68749611C3AD8 /* Skins-Core-Skin2-dummy.m in Sources */,
-				0B2BCDB82E5BB40D77C4A940E705E80F /* UIColor+skin.swift in Sources */,
+				A184E3FF397579DF5710A1ECBE58AB67 /* GreenSkin.swift in Sources */,
+				4D4D797DBE0C3F12472C6BFCB4C3E530 /* RedSkin.swift in Sources */,
+				93CBECA9499D0424292CD2FB468A4C5D /* Skin.swift in Sources */,
+				9A7AE194829CF36EBC58B1890F9567D8 /* Skins-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		325979B2405F8D722D6C0567E5D69C90 /* PBXTargetDependency */ = {
+		818F890DCFB6EED46C778BE126FA14CC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Skins-Core-Skin1";
-			target = 0C446013EDEAE6657AABE629833953D2 /* Skins-Core-Skin1 */;
-			targetProxy = DCDA3CDE6BC613B8444AAAAA794EB435 /* PBXContainerItemProxy */;
-		};
-		94A91D1AADEBC57E9B61A97DD00B7976 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Skins-Core-Skin2";
-			target = 7F6DC98CB7BBFCE53F6B3BFDDDE587EE /* Skins-Core-Skin2 */;
-			targetProxy = B53A6D098B3EAD16E92334B0A1055438 /* PBXContainerItemProxy */;
+			name = Skins;
+			target = 6FE6CCF2AB2834C593CCC4739FE813A3 /* Skins */;
+			targetProxy = CB14467D6E48E9A5B87C4410712B15DE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1875966FB2535E0EA89F5F48F7C6FD56 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 990CD0278A14B5D8AE4896EE11802A66 /* Pods-Client2.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Client2/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Client2/Pods-Client2.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Client2;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -634,82 +443,9 @@
 			};
 			name = Debug;
 		};
-		63241F84CDF81183B720B59602A43F9E /* Release */ = {
+		566B8396D02ECBAD19292F8932DE8AAF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5D63EE99203447D6A47DDD43FD04CA3 /* Pods-Client1.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Client1/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Client1/Pods-Client1.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Client1;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		733999C118D749641801B64E6608D5E1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C459304B963E596F30F35BB3CB327AD6 /* Skins-Core-Skin2.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Skins-Core-Skin2/Skins-Core-Skin2-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Skins-Core-Skin2/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Skins-Core-Skin2/Skins-Core-Skin2.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Skin;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		828B9DE1D3CB472DD4D9544B2E930BDC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E74679B4C56F4D231819CCDE84E68A56 /* Pods-Client1.debug.xcconfig */;
+			baseConfigurationReference = 36C53326BF530ED21ABBE21AF91662A7 /* Pods-Client1.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -790,69 +526,34 @@
 			};
 			name = Release;
 		};
-		D9E1608913B0A8A7DFE203BE644F6396 /* Debug */ = {
+		C9D9464218781C740ABF34D345B650A6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 839B68049D7293A772D09AA57B3C846B /* Pods-Client2.debug.xcconfig */;
+			baseConfigurationReference = E273704BB5120AEAB426B9EF1CEF8CAC /* Pods-Client1.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Client2/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Client1/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Client2/Pods-Client2.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MODULEMAP_FILE = "Target Support Files/Pods-Client1/Pods-Client1.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Client2;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E410855BF49752CECE636FFE324BFB44 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E06B77C098B578BFA1032590BE1FB33B /* Skins-Core-Skin1.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Skins-Core-Skin1/Skins-Core-Skin1-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Skins-Core-Skin1/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Skins-Core-Skin1/Skins-Core-Skin1.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Skin;
+				PRODUCT_NAME = Pods_Client1;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -863,43 +564,9 @@
 			};
 			name = Release;
 		};
-		F0A927EC0E1E987E783611FDE19AD9B7 /* Release */ = {
+		D578F6723E909B81BAB4ECE934888F93 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C459304B963E596F30F35BB3CB327AD6 /* Skins-Core-Skin2.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Skins-Core-Skin2/Skins-Core-Skin2-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Skins-Core-Skin2/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Skins-Core-Skin2/Skins-Core-Skin2.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Skin;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F9515DDE33391353BF93B301993F5880 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E06B77C098B578BFA1032590BE1FB33B /* Skins-Core-Skin1.xcconfig */;
+			baseConfigurationReference = EC551DA79A9B500CCEC5E9DA4FE3A48E /* Skins.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -913,14 +580,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Skins-Core-Skin1/Skins-Core-Skin1-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Skins-Core-Skin1/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Skins/Skins-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Skins/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Skins-Core-Skin1/Skins-Core-Skin1.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Skins/Skins.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Skin;
+				PRODUCT_NAME = Skins;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -932,18 +599,43 @@
 			};
 			name = Debug;
 		};
+		F8B6BB1F2AE267BAE460AF3DCA9C5944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC551DA79A9B500CCEC5E9DA4FE3A48E /* Skins.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Skins/Skins-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Skins/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Skins/Skins.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Skins;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F4002005A86549070CC54DA74F351A8 /* Build configuration list for PBXNativeTarget "Pods-Client1" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				828B9DE1D3CB472DD4D9544B2E930BDC /* Debug */,
-				63241F84CDF81183B720B59602A43F9E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -953,29 +645,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		48AA188B55A0F2CDC3C2625EF197B36B /* Build configuration list for PBXNativeTarget "Skins-Core-Skin1" */ = {
+		8A42DE0111F950BC04851FF6D6C05DCF /* Build configuration list for PBXNativeTarget "Skins" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F9515DDE33391353BF93B301993F5880 /* Debug */,
-				E410855BF49752CECE636FFE324BFB44 /* Release */,
+				D578F6723E909B81BAB4ECE934888F93 /* Debug */,
+				F8B6BB1F2AE267BAE460AF3DCA9C5944 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55381211DEBBA4A4BE36FEB1AF00AB00 /* Build configuration list for PBXNativeTarget "Skins-Core-Skin2" */ = {
+		EE237B16E58026BF2708421994F8B85C /* Build configuration list for PBXNativeTarget "Pods-Client1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				733999C118D749641801B64E6608D5E1 /* Debug */,
-				F0A927EC0E1E987E783611FDE19AD9B7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F2B0600BC874874836A152EEAC67795D /* Build configuration list for PBXNativeTarget "Pods-Client2" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D9E1608913B0A8A7DFE203BE644F6396 /* Debug */,
-				1875966FB2535E0EA89F5F48F7C6FD56 /* Release */,
+				566B8396D02ECBAD19292F8932DE8AAF /* Debug */,
+				C9D9464218781C740ABF34D345B650A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

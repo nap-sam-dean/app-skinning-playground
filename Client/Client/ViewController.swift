@@ -8,13 +8,13 @@
 
 import UIKit
 
-import Skin
+import Skins
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.view.backgroundColor = UIColor.title
+        self.view.backgroundColor = Skinner.currentSkin.colors.primaryDark
     }
 }

@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import Skin
+import Skins
 
 class Tests: XCTestCase {
 

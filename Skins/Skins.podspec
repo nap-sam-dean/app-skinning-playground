@@ -30,7 +30,7 @@ Contains all the Skins that can be applied to an app.
 
   s.ios.deployment_target = '9.0'
   s.platform = :ios
-  s.module_name = 'Skin'
+  s.module_name = 'Skins'
 
   s.subspec 'Core' do |ss|
     ss.ios.deployment_target = '9.0'

@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'Skins_Example' do
   pod 'Skins/Skin1', :path => '../'
+  pod 'Skins/Skin2', :path => '../'
   
   # You can only install 1 skin per target, though that's only because I've named the files the same
   # pod 'Skins/Skin2', :path => '../'

@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double SkinVersionNumber;
-FOUNDATION_EXPORT const unsigned char SkinVersionString[];
+FOUNDATION_EXPORT double SkinsVersionNumber;
+FOUNDATION_EXPORT const unsigned char SkinsVersionString[];
 
