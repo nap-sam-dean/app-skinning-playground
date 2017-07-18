@@ -13,7 +13,11 @@ jobs:
       script: xcodebuild clean build test -workspace Client/Client.xcworkspace -scheme Client1 -destination "platform=iOS simulator,name=iPhone 7 Plus,OS=10.3.1" ONLY_ACTIVE_ARCH=NO | xcpretty
     - env: Client/Skin2 - confirm build
       script: xcodebuild clean build -workspace Client/Client.xcworkspace -scheme Client2 -destination "platform=iOS simulator,name=iPhone 7 Plus,OS=10.3.1" ONLY_ACTIVE_ARCH=NO | xcpretty
-    - env: Skins pod 
+    - env: Client - Xcode9 - confirm build
+      osx_image: xcode9
+      script: xcodebuild clean build -workspace Client/Client.xcworkspace -scheme Client1 -destination "platform=iOS simulator,name=iPhone 7 Plus,OS=10.3.1" ONLY_ACTIVE_ARCH=NO | xcpretty
+      script: xcodebuild clean build -workspace Client/Client.xcworkspace -scheme Client2 -destination "platform=iOS simulator,name=iPhone 7 Plus,OS=10.3.1" ONLY_ACTIVE_ARCH=NO | xcpretty      
+    - env: Skins pod - unit test
       script: xcodebuild clean build test -workspace Skins/Example/Skins.xcworkspace -scheme Skins-Example -destination "platform=iOS simulator,name=iPhone 6s Plus,OS=9.3" ONLY_ACTIVE_ARCH=NO | xcpretty
     - env: Swiftlint
       script: swiftlint --config swiftlint.yml --strict
