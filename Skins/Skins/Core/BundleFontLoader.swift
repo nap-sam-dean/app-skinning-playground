@@ -1,3 +1,6 @@
+/**
+ Registers (and loads) fonts from a specified bundle
+ */
 final class BundleFontLoader {
 
     private struct FontDescription: Hashable {
@@ -18,6 +21,12 @@ final class BundleFontLoader {
     private let bundle: Bundle
     private let isStrict: Bool
 
+    /**
+     Create a new BundleFileLoader for the specified bundle
+
+     - parameter bundle: The bundle to load fonts from (`nil` defaults to the main bundle)
+     - parameter strict: Set this to true to make failure to load fonts `fatalError` instead of debugging to the console.
+     */
     init(bundle: Bundle? = nil, strict: Bool = false) {
         self.bundle = bundle ?? .main
         self.isStrict = strict
@@ -31,7 +40,16 @@ final class BundleFontLoader {
         print(message)
     }
 
-    func registerFontFamily(fileName: String, type: String) {
+    /**
+     Registers a font file for use with `BundleFontLoader.font(named:format:size:)` or `UIFont.font(name:size:)`
+
+     You can safely call this method many times, subsequent calls will be ignored.
+
+     - parameter forResource: The name of the font
+     - parameter withExtension: The extension of the font file
+     - returns: true if the font is registered, false otherwise.
+     */
+    func registerFontFamily(forResource fileName: String, withExtension type: String) {
         let description = FontDescription(fileName: fileName, type: type)
 
         guard !self.attemptedFonts.contains(description) else {
@@ -53,8 +71,17 @@ final class BundleFontLoader {
         }
     }
 
+    /**
+     Convenience method to register and load a font in one call - this works by assuming that the dont family name is the same as the font file name.
+     If this isn't the case, then use `registerFontFamily(fileName:type:)` instead, and call `UIFont(name:size)` directly.
+
+     - parameter named: The family name of the font, which has to be the same as the file name of the font
+     - parameter format: _(optional)_ The file extension, defaults to "otf"
+     - parameter size: The point size of the UIFont to return
+     - returns: The specified font, or a system font of the same size
+    */
     func font(named familyName: String, format: String = "otf", size pointSize: CGFloat) -> UIFont? {
-        self.registerFontFamily(fileName: familyName, type: format)
+        self.registerFontFamily(forResource: familyName, withExtension: format)
 
         guard let font = UIFont(name: familyName, size: pointSize) else {
             return UIFont.systemFont(ofSize: pointSize)
