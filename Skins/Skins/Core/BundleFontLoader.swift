@@ -66,7 +66,6 @@ final class BundleFontLoader {
         var error: Unmanaged<CFError>?
         guard CTFontManagerRegisterFontsForURL(url as CFURL, .process, &error) else {
             self.debug("Failed to load font family named \(fileName) from \(self.bundle) - failed to register font: \(error?.takeUnretainedValue().localizedDescription ?? "unknown error")")
-            error?.release()
             return
         }
     }
