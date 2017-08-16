@@ -7,30 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02E646976AB36E51E3D58A62A486B3F6 /* BundleFontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C494FC7741FD071F697C3A5F2E15D4A /* BundleFontLoader.swift */; };
 		0F627802D2911E0CC99B0E9941B12C14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		114C4C0A802F69D1FB2F830CD4B09AF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		1952EF963A5E9F11B5D468B07E7BDF8A /* Skins-Core-Skin1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 616FD014D382E0E9121C3F1FEFF434B4 /* Skins-Core-Skin1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B4C2BB845D2761396F4EF7BB3EF8AE8 /* Skins-Core-Skin2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5529EF62371447AA239CD39E06210F4B /* Skins-Core-Skin2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1952EF963A5E9F11B5D468B07E7BDF8A /* Skins-Core-Skin1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B719A91CAED8219E5E679F19D5258849 /* Skins-Core-Skin1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B4C2BB845D2761396F4EF7BB3EF8AE8 /* Skins-Core-Skin2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E6BE31956303D450C8EC4ED7224D4D5 /* Skins-Core-Skin2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B76CAA85AEBAF2CFA21EA100FC99B4B /* Pods-Client1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 377B2640954A5CDB082BBD5B1A545A36 /* Pods-Client1-dummy.m */; };
+		32859A199B7412E9F44ED5776F08692B /* UIColor+skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D18A1AF1F4AE4DC54E7FED7975994 /* UIColor+skin.swift */; };
 		33A095220A1FCD61695792EF1610A4D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		3907000B79590004394A17681C5A8EB2 /* UIFont+skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A4C002F9D78304E3990D6D5159949E /* UIFont+skin.swift */; };
 		39E97963FACE512D1C935FC4583076FE /* Pods-Client2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6981E9C5667651B948B243617EE22687 /* Pods-Client2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A3BB1887E27B3F2392F76FEB8FA5B3E /* Pods-Client2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C732B88B1A768958F45C9CDCC44FFD /* Pods-Client2-dummy.m */; };
-		4A0CFE99BFA6DE8242739FDCC5C45809 /* UIColor+skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A8B56CF75B7640026DE5298B9CC35C /* UIColor+skin.swift */; };
-		55CBD573A4E9D1A917E2E7C7134FDEED /* Fonts.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1A39E43FC52EA8B7E2C0B60858631572 /* Fonts.bundle */; };
-		6904814FD39465F88D92D1B6B19BE412 /* UIFont+skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E00CCEFA6F543B8AC3F910611B9780 /* UIFont+skin.swift */; };
+		40478F2C53239206C9B29490395B8B36 /* Fonts.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF48063212270F2FF1EADE4723097E /* Fonts.bundle */; };
+		5BA0143D0F8AEC3F8A9050B9CC80F6FF /* UIColor+skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B158A1BF6EE46E52D3B4A196473FB /* UIColor+skin.swift */; };
+		6058BF6D5641D5D563E55869A5F2E27F /* UIBundle+skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A1292556499A4B2CD9BB3452630B31 /* UIBundle+skin.swift */; };
+		60D23413E1453855DDA8528FA00436F3 /* Skins-Core-Skin2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 325F46AED6E252802298D181CC5A09BA /* Skins-Core-Skin2-dummy.m */; };
+		6515D35CF8FF987D533A799275B0D9B1 /* BundleFontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3D6B7F857635849E5DDAD08F260837 /* BundleFontLoader.swift */; };
 		6BCBABC9726881A1AD9A8D0F8131091D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		723F288F30AE0F61846537BE1441807B /* Skins-Core-Skin2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9AAD1D90C5DE5895657EEB1D021C56 /* Skins-Core-Skin2-dummy.m */; };
-		73200F49A5067DC8DD246EF5B740526E /* Skins-Core-Skin1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F16674E078F7D3D1CCD0BD5E9A33685E /* Skins-Core-Skin1-dummy.m */; };
+		7490C136997625C729979FF0DB72AA5D /* UIImage+skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675B201DB897BADA28D523CC1C70880 /* UIImage+skin.swift */; };
+		773DF6E6CA6C3668E924A28AB9A4B58B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7413A82372F24AE75B4EB0937C7951 /* Images.xcassets */; };
 		779C3E955EF79B5DBE21D4E12AEC1BB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		84B6000FD01FCCAE11FBF8D81011A0A2 /* UIImage+skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31BA753E996F44B0C36F2EEC7469BDF /* UIImage+skin.swift */; };
 		86FBA7DC33284412E539AA993BCA2144 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		A80176F2E7EDD59475970E4A2E705D3A /* SnellRoundhand.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 7D5FAB0E23C350B136ADC0FD796E6865 /* SnellRoundhand.ttc */; };
-		A917D00867DC2F0706365636AF9099C1 /* Akkurat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 73AB4F6DAEF03055FE1840443644E251 /* Akkurat-Regular.otf */; };
+		90D4091336CD8A9A4714B0BB01F176B9 /* BundleFontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3D6B7F857635849E5DDAD08F260837 /* BundleFontLoader.swift */; };
+		A80176F2E7EDD59475970E4A2E705D3A /* SnellRoundhand.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 12A68B25843C30C01476F3EE88630C3B /* SnellRoundhand.ttc */; };
+		A917D00867DC2F0706365636AF9099C1 /* Akkurat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C50016D24342DF86B8EEDD80BC82312 /* Akkurat-Regular.otf */; };
 		AB4417B421E4AE31984A5614E04AA405 /* Pods-Client1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86F02D3AEFE6895A831E5FEABA67F730 /* Pods-Client1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B28629CFA87A4CDBB6093942EAB645AF /* BundleFontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C494FC7741FD071F697C3A5F2E15D4A /* BundleFontLoader.swift */; };
-		CB73C2EE26B3194C01BB61767D11A245 /* UIBundle+skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193CB54E532C3300C41E8710E9B67079 /* UIBundle+skin.swift */; };
-		D4C05EA5A0EC327D20C1A302CC0F384F /* UIFont+skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB52954C8E9C9DE39F12555D6A3DCAD /* UIFont+skin.swift */; };
-		E960BA64C6E90339B83EF3165E7B681B /* UIColor+skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86867E1AA2F1F8DA8A40B77358335472 /* UIColor+skin.swift */; };
+		C154C1CEA210223B450B81771C5A0FC2 /* Bundle+nested.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682DABC63FA65DAC31C600D099AA7C03 /* Bundle+nested.swift */; };
+		D7A8D5E9AB2DD0ED61E03379FC978E7B /* UIFont+skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F6ED6A4708363A25D7E2290DF7C97 /* UIFont+skin.swift */; };
+		DACACB4F6AA777192BF86ADD0FED72F1 /* Bundle+nested.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682DABC63FA65DAC31C600D099AA7C03 /* Bundle+nested.swift */; };
+		FB9800AE61FC6FB135460473D1F5A5F3 /* Assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6A0D7BBC53E09781FC9F534DFABFDFF6 /* Assets.bundle */; };
+		FE337C643A36605C97668E7F44425239 /* Skins-Core-Skin1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 204AB3FBAA693AC9AD62BCB4C910F5EC /* Skins-Core-Skin1-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 9653CFF565EDAB82BFE49452ABA4A1AF;
 			remoteInfo = "Skins-Core-Skin1-Fonts";
+		};
+		34C48C7BD38E8D4D084728892016B7A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8A5498C7C763FE3C45339A115993398;
+			remoteInfo = "Skins-Core-Skin1-Assets";
 		};
 		B53A6D098B3EAD16E92334B0A1055438 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -58,55 +71,61 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12A68B25843C30C01476F3EE88630C3B /* SnellRoundhand.ttc */ = {isa = PBXFileReference; includeInIndex = 1; path = SnellRoundhand.ttc; sourceTree = "<group>"; };
 		12D6395BC9CC3CCBB6E661ACC9E58FB6 /* Pods-Client2-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Client2-acknowledgements.plist"; sourceTree = "<group>"; };
 		141F288D96A914022C54930DA2A82033 /* Pods-Client1-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Client1-acknowledgements.plist"; sourceTree = "<group>"; };
-		193CB54E532C3300C41E8710E9B67079 /* UIBundle+skin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIBundle+skin.swift"; sourceTree = "<group>"; };
-		1A39E43FC52EA8B7E2C0B60858631572 /* Fonts.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Fonts.bundle; path = Fonts.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EDC5C55C60FC9D24ADCA8D750E275E1 /* Skin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Skin.framework; path = "Skins-Core-Skin2.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CFE015AAE043C872528FFFDE5932B3C /* ResourceBundle-Fonts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Fonts-Info.plist"; sourceTree = "<group>"; };
+		204AB3FBAA693AC9AD62BCB4C910F5EC /* Skins-Core-Skin1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Skins-Core-Skin1-dummy.m"; sourceTree = "<group>"; };
+		26256BA60C96A62CBE021078BFC682EE /* Pods_Client1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Client1.framework; path = "Pods-Client1.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C161744BBB2DA0412CAEBA5EE2AF5B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2EC48526327A25AFBBD033961F78051F /* Skin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Skin.framework; path = "Skins-Core-Skin1.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C208B5210D545110A152595B6F9509 /* Skins-Core-Skin2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Skins-Core-Skin2-prefix.pch"; path = "../Skins-Core-Skin2/Skins-Core-Skin2-prefix.pch"; sourceTree = "<group>"; };
+		325F46AED6E252802298D181CC5A09BA /* Skins-Core-Skin2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Skins-Core-Skin2-dummy.m"; path = "../Skins-Core-Skin2/Skins-Core-Skin2-dummy.m"; sourceTree = "<group>"; };
 		3731FEC981E9F2D377560C8A85FF9237 /* Pods-Client2-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Client2-frameworks.sh"; sourceTree = "<group>"; };
 		377B2640954A5CDB082BBD5B1A545A36 /* Pods-Client1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Client1-dummy.m"; sourceTree = "<group>"; };
-		39DC57491F4345E01A4550ACFB95011C /* Skins-Core-Skin1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Skins-Core-Skin1.modulemap"; sourceTree = "<group>"; };
-		3B949304F671F9DC82F49401A529DB4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Skins-Core-Skin2/Info.plist"; sourceTree = "<group>"; };
+		4207ADA29B9C0957AA4D0B61B03FA70E /* Skins-Core-Skin2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Skins-Core-Skin2.xcconfig"; path = "../Skins-Core-Skin2/Skins-Core-Skin2.xcconfig"; sourceTree = "<group>"; };
+		45865BC77021DE64EF093DF04A6B17C3 /* Skins-Core-Skin2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "Skins-Core-Skin2.modulemap"; path = "../Skins-Core-Skin2/Skins-Core-Skin2.modulemap"; sourceTree = "<group>"; };
+		4D0B158A1BF6EE46E52D3B4A196473FB /* UIColor+skin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+skin.swift"; sourceTree = "<group>"; };
 		4FE0E84420DBDE8CF392D58D28A89C78 /* Pods-Client1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Client1.modulemap"; sourceTree = "<group>"; };
-		5529EF62371447AA239CD39E06210F4B /* Skins-Core-Skin2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Skins-Core-Skin2-umbrella.h"; path = "../Skins-Core-Skin2/Skins-Core-Skin2-umbrella.h"; sourceTree = "<group>"; };
-		55A8B56CF75B7640026DE5298B9CC35C /* UIColor+skin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+skin.swift"; sourceTree = "<group>"; };
-		57E00CCEFA6F543B8AC3F910611B9780 /* UIFont+skin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIFont+skin.swift"; sourceTree = "<group>"; };
-		614FE48DA35F27E64E8EDEA78F2375D6 /* Pods_Client1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Client1.framework; path = "Pods-Client1.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		616FD014D382E0E9121C3F1FEFF434B4 /* Skins-Core-Skin1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Skins-Core-Skin1-umbrella.h"; sourceTree = "<group>"; };
 		66A92C8A57AE16B2DB478495310BDABB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		682DABC63FA65DAC31C600D099AA7C03 /* Bundle+nested.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Bundle+nested.swift"; sourceTree = "<group>"; };
 		6981E9C5667651B948B243617EE22687 /* Pods-Client2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Client2-umbrella.h"; sourceTree = "<group>"; };
+		6A0D7BBC53E09781FC9F534DFABFDFF6 /* Assets.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Assets.bundle; path = Assets.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AFF48063212270F2FF1EADE4723097E /* Fonts.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Fonts.bundle; path = Fonts.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B62FF770C246A1381EA5B2EFFA4E455 /* Pods-Client1-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Client1-frameworks.sh"; sourceTree = "<group>"; };
-		6C494FC7741FD071F697C3A5F2E15D4A /* BundleFontLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BundleFontLoader.swift; sourceTree = "<group>"; };
-		6EE4F0FD3A6DB5C9B8EAD7468B1FA92C /* Skins-Core-Skin2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Skins-Core-Skin2-prefix.pch"; path = "../Skins-Core-Skin2/Skins-Core-Skin2-prefix.pch"; sourceTree = "<group>"; };
-		70B40CABBA3F8B960CBBB61CFF0E1DF9 /* Skins-Core-Skin2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "Skins-Core-Skin2.modulemap"; path = "../Skins-Core-Skin2/Skins-Core-Skin2.modulemap"; sourceTree = "<group>"; };
-		73AB4F6DAEF03055FE1840443644E251 /* Akkurat-Regular.otf */ = {isa = PBXFileReference; includeInIndex = 1; path = "Akkurat-Regular.otf"; sourceTree = "<group>"; };
+		70289935D5B3DEA423ED7D1D23B86B87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Skins-Core-Skin2/Info.plist"; sourceTree = "<group>"; };
+		703F20049B5009A1EC0DD8869651F499 /* Skins-Core-Skin1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Skins-Core-Skin1.modulemap"; sourceTree = "<group>"; };
+		768D18A1AF1F4AE4DC54E7FED7975994 /* UIColor+skin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+skin.swift"; sourceTree = "<group>"; };
+		77107750605E3368E202FCF997717116 /* ResourceBundle-Assets-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Assets-Info.plist"; sourceTree = "<group>"; };
 		787A65E1A2E5BC8C4D51F462027D9549 /* Pods-Client2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Client2.modulemap"; sourceTree = "<group>"; };
-		7D5FAB0E23C350B136ADC0FD796E6865 /* SnellRoundhand.ttc */ = {isa = PBXFileReference; includeInIndex = 1; path = SnellRoundhand.ttc; sourceTree = "<group>"; };
+		81A1292556499A4B2CD9BB3452630B31 /* UIBundle+skin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIBundle+skin.swift"; sourceTree = "<group>"; };
 		839B68049D7293A772D09AA57B3C846B /* Pods-Client2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Client2.debug.xcconfig"; sourceTree = "<group>"; };
 		85C732B88B1A768958F45C9CDCC44FFD /* Pods-Client2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Client2-dummy.m"; sourceTree = "<group>"; };
-		86867E1AA2F1F8DA8A40B77358335472 /* UIColor+skin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+skin.swift"; sourceTree = "<group>"; };
 		86F02D3AEFE6895A831E5FEABA67F730 /* Pods-Client1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Client1-umbrella.h"; sourceTree = "<group>"; };
 		89360F47BE8A05BA30FC3329434B92E2 /* Pods-Client1-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Client1-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8B7B8435089D82B185887F72D1A80618 /* Pods-Client1-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Client1-resources.sh"; sourceTree = "<group>"; };
-		8FBE46B0B44F404A34F5C6F929E50889 /* Skins-Core-Skin1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Skins-Core-Skin1.xcconfig"; sourceTree = "<group>"; };
+		8C50016D24342DF86B8EEDD80BC82312 /* Akkurat-Regular.otf */ = {isa = PBXFileReference; includeInIndex = 1; path = "Akkurat-Regular.otf"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		968CF553AD7D92F144F39F829F47C7F7 /* Pods_Client2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Client2.framework; path = "Pods-Client2.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		990CD0278A14B5D8AE4896EE11802A66 /* Pods-Client2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Client2.release.xcconfig"; sourceTree = "<group>"; };
+		993C15A50282755621B700B0CC753B4F /* Skin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Skin.framework; path = "Skins-Core-Skin1.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E6BE31956303D450C8EC4ED7224D4D5 /* Skins-Core-Skin2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Skins-Core-Skin2-umbrella.h"; path = "../Skins-Core-Skin2/Skins-Core-Skin2-umbrella.h"; sourceTree = "<group>"; };
+		9E9F6ED6A4708363A25D7E2290DF7C97 /* UIFont+skin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIFont+skin.swift"; sourceTree = "<group>"; };
 		A3DD7DABCE350ADF00FBE412732A654F /* Pods-Client2-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Client2-resources.sh"; sourceTree = "<group>"; };
+		AB7413A82372F24AE75B4EB0937C7951 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AC677E82ED693DF2B2FCDBA04693F02C /* Skin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Skin.framework; path = "Skins-Core-Skin2.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACCA65760E8C2CA678CE9EDED4793EFF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B6ABA2BF3C3FC83C0DA9189B66AF4E31 /* ResourceBundle-Fonts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Fonts-Info.plist"; sourceTree = "<group>"; };
-		BAA9B0144734E3E68DE87E2C43E0D540 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD9AAD1D90C5DE5895657EEB1D021C56 /* Skins-Core-Skin2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Skins-Core-Skin2-dummy.m"; path = "../Skins-Core-Skin2/Skins-Core-Skin2-dummy.m"; sourceTree = "<group>"; };
-		CDB52954C8E9C9DE39F12555D6A3DCAD /* UIFont+skin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIFont+skin.swift"; sourceTree = "<group>"; };
-		D53366AB560824F347207AF2216F9531 /* Pods_Client2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Client2.framework; path = "Pods-Client2.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B719A91CAED8219E5E679F19D5258849 /* Skins-Core-Skin1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Skins-Core-Skin1-umbrella.h"; sourceTree = "<group>"; };
+		BE32C53A0F727BAF758F66D545D1AD3D /* Skins-Core-Skin1-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Skins-Core-Skin1-prefix.pch"; sourceTree = "<group>"; };
+		D31BA753E996F44B0C36F2EEC7469BDF /* UIImage+skin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+skin.swift"; sourceTree = "<group>"; };
+		D675B201DB897BADA28D523CC1C70880 /* UIImage+skin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+skin.swift"; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D9D2A1C83780DEAAA73CABD47DFB8F85 /* Skins-Core-Skin1-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Skins-Core-Skin1-prefix.pch"; sourceTree = "<group>"; };
+		DD2AC945031F3492D54F4DE9001D462F /* Skins-Core-Skin1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Skins-Core-Skin1.xcconfig"; sourceTree = "<group>"; };
+		DF3D6B7F857635849E5DDAD08F260837 /* BundleFontLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BundleFontLoader.swift; sourceTree = "<group>"; };
 		E5D63EE99203447D6A47DDD43FD04CA3 /* Pods-Client1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Client1.release.xcconfig"; sourceTree = "<group>"; };
 		E74679B4C56F4D231819CCDE84E68A56 /* Pods-Client1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Client1.debug.xcconfig"; sourceTree = "<group>"; };
-		F16674E078F7D3D1CCD0BD5E9A33685E /* Skins-Core-Skin1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Skins-Core-Skin1-dummy.m"; sourceTree = "<group>"; };
+		F8A4C002F9D78304E3990D6D5159949E /* UIFont+skin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIFont+skin.swift"; sourceTree = "<group>"; };
 		FBD410047A3A0667C34C2261ED115671 /* Pods-Client2-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Client2-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FDF3178E6B814386DCCB8D6B25B88E5E /* Skins-Core-Skin2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Skins-Core-Skin2.xcconfig"; path = "../Skins-Core-Skin2/Skins-Core-Skin2.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +139,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5555AC573B5426290F741B83E8690338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC06DB233D4A6445D8269E688E5AFFA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -154,14 +180,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D9B5A4DC2889C1A64A56D09E40B8547 /* Fonts */ = {
+		0564718155C59874C9A5428133D3B517 /* Skins */ = {
 			isa = PBXGroup;
 			children = (
-				73AB4F6DAEF03055FE1840443644E251 /* Akkurat-Regular.otf */,
-				7D5FAB0E23C350B136ADC0FD796E6865 /* SnellRoundhand.ttc */,
+				CB8783B4EA6FFD1CD20081F592C9712D /* Core */,
+				9B44F426F10661ACA6EF655D9F850BA8 /* Skin1 */,
+				E4CBAF1B5B245880AE8D1159B18285FB /* Skin2 */,
+				3D0B7EBD92B8FE260C25C1857B87EA1C /* Support Files */,
 			);
-			name = Fonts;
-			path = Fonts;
+			name = Skins;
+			path = ../../Skins;
+			sourceTree = "<group>";
+		};
+		06D54B6A236257A60373F27D4108E819 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				81A1292556499A4B2CD9BB3452630B31 /* UIBundle+skin.swift */,
+				768D18A1AF1F4AE4DC54E7FED7975994 /* UIColor+skin.swift */,
+				F8A4C002F9D78304E3990D6D5159949E /* UIFont+skin.swift */,
+				D675B201DB897BADA28D523CC1C70880 /* UIImage+skin.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		073D6A766E30DA47B45489A50BB06C3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A0D7BBC53E09781FC9F534DFABFDFF6 /* Assets.bundle */,
+				6AFF48063212270F2FF1EADE4723097E /* Fonts.bundle */,
+				26256BA60C96A62CBE021078BFC682EE /* Pods_Client1.framework */,
+				968CF553AD7D92F144F39F829F47C7F7 /* Pods_Client2.framework */,
+				AC677E82ED693DF2B2FCDBA04693F02C /* Skin.framework */,
+				993C15A50282755621B700B0CC753B4F /* Skin.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		139ED2E443CD60A49A26789C2D035C1F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				868862B68536BF48E1A6D669B4B09FF4 /* Skins */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		1FC9664F91302BD45D255315698D2FFC /* Targets Support Files */ = {
@@ -191,30 +252,53 @@
 			path = "Target Support Files/Pods-Client1";
 			sourceTree = "<group>";
 		};
+		27C098DCDD0A3036F42D279C85897C53 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A50DC1451E130BFDBBAADBFB4C35667B /* Assets */,
+				6FB8050D714CCD074BFA0D9919426681 /* Fonts */,
+			);
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		2897FAF68A451209AB484E7FD19FC587 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8752798CF41D982997FC30256F11B7BD /* Skins */,
+				0564718155C59874C9A5428133D3B517 /* Skins */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		3C33052705D124B04F32BC38B3CB2FF4 /* Skin1 */ = {
+		33034B3B30620B7342F50EF2861FAB72 /* Skin1 */ = {
 			isa = PBXGroup;
 			children = (
-				52E56006BC9FDC2BEB606C809B84BAC6 /* Resources */,
-				AB2C031A8D28D784521672E479720841 /* Skins */,
+				27C098DCDD0A3036F42D279C85897C53 /* Assets */,
 			);
 			name = Skin1;
+			path = Skin1;
 			sourceTree = "<group>";
 		};
-		3E7E13EC1BBF3CC0F0D5463576D83AFB /* Skins */ = {
+		3D0B7EBD92B8FE260C25C1857B87EA1C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8B5B4690268B070953D64B1CDE672841 /* Skin2 */,
+				70289935D5B3DEA423ED7D1D23B86B87 /* Info.plist */,
+				ACCA65760E8C2CA678CE9EDED4793EFF /* Info.plist */,
+				77107750605E3368E202FCF997717116 /* ResourceBundle-Assets-Info.plist */,
+				1CFE015AAE043C872528FFFDE5932B3C /* ResourceBundle-Fonts-Info.plist */,
+				703F20049B5009A1EC0DD8869651F499 /* Skins-Core-Skin1.modulemap */,
+				DD2AC945031F3492D54F4DE9001D462F /* Skins-Core-Skin1.xcconfig */,
+				204AB3FBAA693AC9AD62BCB4C910F5EC /* Skins-Core-Skin1-dummy.m */,
+				BE32C53A0F727BAF758F66D545D1AD3D /* Skins-Core-Skin1-prefix.pch */,
+				B719A91CAED8219E5E679F19D5258849 /* Skins-Core-Skin1-umbrella.h */,
+				45865BC77021DE64EF093DF04A6B17C3 /* Skins-Core-Skin2.modulemap */,
+				4207ADA29B9C0957AA4D0B61B03FA70E /* Skins-Core-Skin2.xcconfig */,
+				325F46AED6E252802298D181CC5A09BA /* Skins-Core-Skin2-dummy.m */,
+				30C208B5210D545110A152595B6F9509 /* Skins-Core-Skin2-prefix.pch */,
+				9E6BE31956303D450C8EC4ED7224D4D5 /* Skins-Core-Skin2-umbrella.h */,
 			);
-			name = Skins;
-			path = Skins;
+			name = "Support Files";
+			path = "../Client/Pods/Target Support Files/Skins-Core-Skin1";
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -234,47 +318,41 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		44B06A59797220A1EA0B6485A90440BF /* Core */ = {
+		6FB8050D714CCD074BFA0D9919426681 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				6F999E50DF473F074EBA34AD8771A03F /* Skins */,
+				8C50016D24342DF86B8EEDD80BC82312 /* Akkurat-Regular.otf */,
+				12A68B25843C30C01476F3EE88630C3B /* SnellRoundhand.ttc */,
 			);
-			name = Core;
+			name = Fonts;
+			path = Fonts;
 			sourceTree = "<group>";
 		};
-		52E56006BC9FDC2BEB606C809B84BAC6 /* Resources */ = {
+		7A8D5C62787E327E805A6F0EF685DAFF /* Skin1 */ = {
 			isa = PBXGroup;
 			children = (
-				68037D3E26E43FEB66C696AD431EE367 /* Skins */,
+				06D54B6A236257A60373F27D4108E819 /* Classes */,
 			);
-			name = Resources;
+			name = Skin1;
+			path = Skin1;
 			sourceTree = "<group>";
 		};
-		68037D3E26E43FEB66C696AD431EE367 /* Skins */ = {
+		7AE9B1B1998514E6D510FDAF9B1F73B0 /* Skin2 */ = {
 			isa = PBXGroup;
 			children = (
-				83BF313202FAB96EE2FA847FAC1D4546 /* Skin1 */,
+				E08688B6EC5D224799ABD7CB50A90036 /* Classes */,
+			);
+			name = Skin2;
+			path = Skin2;
+			sourceTree = "<group>";
+		};
+		7B7619D55E76B35F64C722DAAC43CFF4 /* Skins */ = {
+			isa = PBXGroup;
+			children = (
+				7A8D5C62787E327E805A6F0EF685DAFF /* Skin1 */,
 			);
 			name = Skins;
 			path = Skins;
-			sourceTree = "<group>";
-		};
-		6F999E50DF473F074EBA34AD8771A03F /* Skins */ = {
-			isa = PBXGroup;
-			children = (
-				7B46235B1996C6E9B08D06EA2208C8AC /* Core */,
-			);
-			name = Skins;
-			path = Skins;
-			sourceTree = "<group>";
-		};
-		7B46235B1996C6E9B08D06EA2208C8AC /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				6C494FC7741FD071F697C3A5F2E15D4A /* BundleFontLoader.swift */,
-			);
-			name = Core;
-			path = Core;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -283,81 +361,37 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				2897FAF68A451209AB484E7FD19FC587 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				7FA5981D53B432E8E7EE3674287541BD /* Products */,
+				073D6A766E30DA47B45489A50BB06C3F /* Products */,
 				1FC9664F91302BD45D255315698D2FFC /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7FA5981D53B432E8E7EE3674287541BD /* Products */ = {
+		868862B68536BF48E1A6D669B4B09FF4 /* Skins */ = {
 			isa = PBXGroup;
 			children = (
-				1A39E43FC52EA8B7E2C0B60858631572 /* Fonts.bundle */,
-				614FE48DA35F27E64E8EDEA78F2375D6 /* Pods_Client1.framework */,
-				D53366AB560824F347207AF2216F9531 /* Pods_Client2.framework */,
-				1EDC5C55C60FC9D24ADCA8D750E275E1 /* Skin.framework */,
-				2EC48526327A25AFBBD033961F78051F /* Skin.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		805C68FFE7E1BA2D6CE65C7A0DF1D8BA /* Skin1 */ = {
-			isa = PBXGroup;
-			children = (
-				AB47AF7D32C042917A5386A2EF070A4E /* Classes */,
-			);
-			name = Skin1;
-			path = Skin1;
-			sourceTree = "<group>";
-		};
-		83BF313202FAB96EE2FA847FAC1D4546 /* Skin1 */ = {
-			isa = PBXGroup;
-			children = (
-				B7FDD16CF7A7543C95595E405EEC841F /* Assets */,
-			);
-			name = Skin1;
-			path = Skin1;
-			sourceTree = "<group>";
-		};
-		84BD3A096299997F4AB430382EDC8500 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3B949304F671F9DC82F49401A529DB4B /* Info.plist */,
-				BAA9B0144734E3E68DE87E2C43E0D540 /* Info.plist */,
-				B6ABA2BF3C3FC83C0DA9189B66AF4E31 /* ResourceBundle-Fonts-Info.plist */,
-				39DC57491F4345E01A4550ACFB95011C /* Skins-Core-Skin1.modulemap */,
-				8FBE46B0B44F404A34F5C6F929E50889 /* Skins-Core-Skin1.xcconfig */,
-				F16674E078F7D3D1CCD0BD5E9A33685E /* Skins-Core-Skin1-dummy.m */,
-				D9D2A1C83780DEAAA73CABD47DFB8F85 /* Skins-Core-Skin1-prefix.pch */,
-				616FD014D382E0E9121C3F1FEFF434B4 /* Skins-Core-Skin1-umbrella.h */,
-				70B40CABBA3F8B960CBBB61CFF0E1DF9 /* Skins-Core-Skin2.modulemap */,
-				FDF3178E6B814386DCCB8D6B25B88E5E /* Skins-Core-Skin2.xcconfig */,
-				BD9AAD1D90C5DE5895657EEB1D021C56 /* Skins-Core-Skin2-dummy.m */,
-				6EE4F0FD3A6DB5C9B8EAD7468B1FA92C /* Skins-Core-Skin2-prefix.pch */,
-				5529EF62371447AA239CD39E06210F4B /* Skins-Core-Skin2-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Client/Pods/Target Support Files/Skins-Core-Skin1";
-			sourceTree = "<group>";
-		};
-		8752798CF41D982997FC30256F11B7BD /* Skins */ = {
-			isa = PBXGroup;
-			children = (
-				44B06A59797220A1EA0B6485A90440BF /* Core */,
-				3C33052705D124B04F32BC38B3CB2FF4 /* Skin1 */,
-				F38DB8EE6F6D084D7AEA7B9CE4C4AA9A /* Skin2 */,
-				84BD3A096299997F4AB430382EDC8500 /* Support Files */,
+				33034B3B30620B7342F50EF2861FAB72 /* Skin1 */,
 			);
 			name = Skins;
-			path = ../../Skins;
+			path = Skins;
 			sourceTree = "<group>";
 		};
-		8B5B4690268B070953D64B1CDE672841 /* Skin2 */ = {
+		90B2AEDF4A49DFBC28B9DFC2A0C26704 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				CC3388AF494585C81D42771BB62F3900 /* Classes */,
+				682DABC63FA65DAC31C600D099AA7C03 /* Bundle+nested.swift */,
+				DF3D6B7F857635849E5DDAD08F260837 /* BundleFontLoader.swift */,
 			);
-			name = Skin2;
-			path = Skin2;
+			name = Core;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9B44F426F10661ACA6EF655D9F850BA8 /* Skin1 */ = {
+			isa = PBXGroup;
+			children = (
+				139ED2E443CD60A49A26789C2D035C1F /* Resources */,
+				7B7619D55E76B35F64C722DAAC43CFF4 /* Skins */,
+			);
+			name = Skin1;
 			sourceTree = "<group>";
 		};
 		9F26FDA5020FA405EFCE5571ED538A2E /* Pods-Client2 */ = {
@@ -378,51 +412,58 @@
 			path = "Target Support Files/Pods-Client2";
 			sourceTree = "<group>";
 		};
-		AB2C031A8D28D784521672E479720841 /* Skins */ = {
+		A50DC1451E130BFDBBAADBFB4C35667B /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				805C68FFE7E1BA2D6CE65C7A0DF1D8BA /* Skin1 */,
-			);
-			name = Skins;
-			path = Skins;
-			sourceTree = "<group>";
-		};
-		AB47AF7D32C042917A5386A2EF070A4E /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				193CB54E532C3300C41E8710E9B67079 /* UIBundle+skin.swift */,
-				55A8B56CF75B7640026DE5298B9CC35C /* UIColor+skin.swift */,
-				CDB52954C8E9C9DE39F12555D6A3DCAD /* UIFont+skin.swift */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		B7FDD16CF7A7543C95595E405EEC841F /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				0D9B5A4DC2889C1A64A56D09E40B8547 /* Fonts */,
+				AB7413A82372F24AE75B4EB0937C7951 /* Images.xcassets */,
 			);
 			name = Assets;
 			path = Assets;
 			sourceTree = "<group>";
 		};
-		CC3388AF494585C81D42771BB62F3900 /* Classes */ = {
+		CB8783B4EA6FFD1CD20081F592C9712D /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				86867E1AA2F1F8DA8A40B77358335472 /* UIColor+skin.swift */,
-				57E00CCEFA6F543B8AC3F910611B9780 /* UIFont+skin.swift */,
+				EE754EDE738C3FDB8A30CA954AFB153B /* Skins */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		E08688B6EC5D224799ABD7CB50A90036 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4D0B158A1BF6EE46E52D3B4A196473FB /* UIColor+skin.swift */,
+				9E9F6ED6A4708363A25D7E2290DF7C97 /* UIFont+skin.swift */,
+				D31BA753E996F44B0C36F2EEC7469BDF /* UIImage+skin.swift */,
 			);
 			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		F38DB8EE6F6D084D7AEA7B9CE4C4AA9A /* Skin2 */ = {
+		E4CBAF1B5B245880AE8D1159B18285FB /* Skin2 */ = {
 			isa = PBXGroup;
 			children = (
-				3E7E13EC1BBF3CC0F0D5463576D83AFB /* Skins */,
+				ECDC35E74D149061C026D5AE9804B569 /* Skins */,
 			);
 			name = Skin2;
+			sourceTree = "<group>";
+		};
+		ECDC35E74D149061C026D5AE9804B569 /* Skins */ = {
+			isa = PBXGroup;
+			children = (
+				7AE9B1B1998514E6D510FDAF9B1F73B0 /* Skin2 */,
+			);
+			name = Skins;
+			path = Skins;
+			sourceTree = "<group>";
+		};
+		EE754EDE738C3FDB8A30CA954AFB153B /* Skins */ = {
+			isa = PBXGroup;
+			children = (
+				90B2AEDF4A49DFBC28B9DFC2A0C26704 /* Core */,
+			);
+			name = Skins;
+			path = Skins;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -467,19 +508,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48AA188B55A0F2CDC3C2625EF197B36B /* Build configuration list for PBXNativeTarget "Skins-Core-Skin1" */;
 			buildPhases = (
-				7C740FAB55CD7FADB540627D22A9B8E5 /* Sources */,
+				4BC12BA8717D6DBDA4602019A35A2015 /* Sources */,
 				FC125CC26886C2B30071292F5AD3A9FF /* Frameworks */,
-				4D4478349F60E56AE3C7B518E65B113F /* Resources */,
+				CB3A40907F7735BC7D54029BEDB23F0D /* Resources */,
 				C6B4900B3A7C12681D366A28C2571FE1 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7A7FA90F8A6C105336A51E4A2496FD0C /* PBXTargetDependency */,
 				9D323B443B8C073139629DEEC1F20A38 /* PBXTargetDependency */,
 			);
 			name = "Skins-Core-Skin1";
 			productName = "Skins-Core-Skin1";
-			productReference = 2EC48526327A25AFBBD033961F78051F /* Skin.framework */;
+			productReference = 993C15A50282755621B700B0CC753B4F /* Skin.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7E1296E21F3FBCD18A1C8FB6296343EB /* Pods-Client2 */ = {
@@ -497,14 +539,14 @@
 			);
 			name = "Pods-Client2";
 			productName = "Pods-Client2";
-			productReference = D53366AB560824F347207AF2216F9531 /* Pods_Client2.framework */;
+			productReference = 968CF553AD7D92F144F39F829F47C7F7 /* Pods_Client2.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7F6DC98CB7BBFCE53F6B3BFDDDE587EE /* Skins-Core-Skin2 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55381211DEBBA4A4BE36FEB1AF00AB00 /* Build configuration list for PBXNativeTarget "Skins-Core-Skin2" */;
 			buildPhases = (
-				AD363805BEA0B52A4F292F8DD31DECEF /* Sources */,
+				638B4D5833F679E9486B66DAEE84498B /* Sources */,
 				1765DB132CC518E06F80402AFEB31789 /* Frameworks */,
 				A15F1866D7A3345F4CD6EBBB0523A13B /* Headers */,
 			);
@@ -514,7 +556,7 @@
 			);
 			name = "Skins-Core-Skin2";
 			productName = "Skins-Core-Skin2";
-			productReference = 1EDC5C55C60FC9D24ADCA8D750E275E1 /* Skin.framework */;
+			productReference = AC677E82ED693DF2B2FCDBA04693F02C /* Skin.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9653CFF565EDAB82BFE49452ABA4A1AF /* Skins-Core-Skin1-Fonts */ = {
@@ -531,7 +573,24 @@
 			);
 			name = "Skins-Core-Skin1-Fonts";
 			productName = "Skins-Core-Skin1-Fonts";
-			productReference = 1A39E43FC52EA8B7E2C0B60858631572 /* Fonts.bundle */;
+			productReference = 6AFF48063212270F2FF1EADE4723097E /* Fonts.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C8A5498C7C763FE3C45339A115993398 /* Skins-Core-Skin1-Assets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92890E4094FD9958E2888022D662948E /* Build configuration list for PBXNativeTarget "Skins-Core-Skin1-Assets" */;
+			buildPhases = (
+				2A88D5E1C47BADEF80EDF9484A69756E /* Sources */,
+				BEC06DB233D4A6445D8269E688E5AFFA /* Frameworks */,
+				1FACEED8E0955AA60AF5ED07EA8312E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Skins-Core-Skin1-Assets";
+			productName = "Skins-Core-Skin1-Assets";
+			productReference = 6A0D7BBC53E09781FC9F534DFABFDFF6 /* Assets.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		DDC5E7027F24BB48BF53B5ED444B01F5 /* Pods-Client1 */ = {
@@ -549,7 +608,7 @@
 			);
 			name = "Pods-Client1";
 			productName = "Pods-Client1";
-			productReference = 614FE48DA35F27E64E8EDEA78F2375D6 /* Pods_Client1.framework */;
+			productReference = 26256BA60C96A62CBE021078BFC682EE /* Pods_Client1.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -569,13 +628,14 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7FA5981D53B432E8E7EE3674287541BD /* Products */;
+			productRefGroup = 073D6A766E30DA47B45489A50BB06C3F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				DDC5E7027F24BB48BF53B5ED444B01F5 /* Pods-Client1 */,
 				7E1296E21F3FBCD18A1C8FB6296343EB /* Pods-Client2 */,
 				0C446013EDEAE6657AABE629833953D2 /* Skins-Core-Skin1 */,
+				C8A5498C7C763FE3C45339A115993398 /* Skins-Core-Skin1-Assets */,
 				9653CFF565EDAB82BFE49452ABA4A1AF /* Skins-Core-Skin1-Fonts */,
 				7F6DC98CB7BBFCE53F6B3BFDDDE587EE /* Skins-Core-Skin2 */,
 			);
@@ -583,11 +643,20 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4D4478349F60E56AE3C7B518E65B113F /* Resources */ = {
+		1FACEED8E0955AA60AF5ED07EA8312E3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55CBD573A4E9D1A917E2E7C7134FDEED /* Fonts.bundle in Resources */,
+				773DF6E6CA6C3668E924A28AB9A4B58B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3A40907F7735BC7D54029BEDB23F0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9800AE61FC6FB135460473D1F5A5F3 /* Assets.bundle in Resources */,
+				40478F2C53239206C9B29490395B8B36 /* Fonts.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,11 +679,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2A88D5E1C47BADEF80EDF9484A69756E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2C79F304CD33CF5D859EB937315395F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1B76CAA85AEBAF2CFA21EA100FC99B4B /* Pods-Client1-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC12BA8717D6DBDA4602019A35A2015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C154C1CEA210223B450B81771C5A0FC2 /* Bundle+nested.swift in Sources */,
+				6515D35CF8FF987D533A799275B0D9B1 /* BundleFontLoader.swift in Sources */,
+				FE337C643A36605C97668E7F44425239 /* Skins-Core-Skin1-dummy.m in Sources */,
+				6058BF6D5641D5D563E55869A5F2E27F /* UIBundle+skin.swift in Sources */,
+				32859A199B7412E9F44ED5776F08692B /* UIColor+skin.swift in Sources */,
+				3907000B79590004394A17681C5A8EB2 /* UIFont+skin.swift in Sources */,
+				7490C136997625C729979FF0DB72AA5D /* UIImage+skin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638B4D5833F679E9486B66DAEE84498B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACACB4F6AA777192BF86ADD0FED72F1 /* Bundle+nested.swift in Sources */,
+				90D4091336CD8A9A4714B0BB01F176B9 /* BundleFontLoader.swift in Sources */,
+				60D23413E1453855DDA8528FA00436F3 /* Skins-Core-Skin2-dummy.m in Sources */,
+				5BA0143D0F8AEC3F8A9050B9CC80F6FF /* UIColor+skin.swift in Sources */,
+				D7A8D5E9AB2DD0ED61E03379FC978E7B /* UIFont+skin.swift in Sources */,
+				84B6000FD01FCCAE11FBF8D81011A0A2 /* UIImage+skin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,29 +729,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C740FAB55CD7FADB540627D22A9B8E5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B28629CFA87A4CDBB6093942EAB645AF /* BundleFontLoader.swift in Sources */,
-				73200F49A5067DC8DD246EF5B740526E /* Skins-Core-Skin1-dummy.m in Sources */,
-				CB73C2EE26B3194C01BB61767D11A245 /* UIBundle+skin.swift in Sources */,
-				4A0CFE99BFA6DE8242739FDCC5C45809 /* UIColor+skin.swift in Sources */,
-				D4C05EA5A0EC327D20C1A302CC0F384F /* UIFont+skin.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD363805BEA0B52A4F292F8DD31DECEF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				02E646976AB36E51E3D58A62A486B3F6 /* BundleFontLoader.swift in Sources */,
-				723F288F30AE0F61846537BE1441807B /* Skins-Core-Skin2-dummy.m in Sources */,
-				E960BA64C6E90339B83EF3165E7B681B /* UIColor+skin.swift in Sources */,
-				6904814FD39465F88D92D1B6B19BE412 /* UIFont+skin.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -657,6 +737,12 @@
 			name = "Skins-Core-Skin1";
 			target = 0C446013EDEAE6657AABE629833953D2 /* Skins-Core-Skin1 */;
 			targetProxy = DCDA3CDE6BC613B8444AAAAA794EB435 /* PBXContainerItemProxy */;
+		};
+		7A7FA90F8A6C105336A51E4A2496FD0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Skins-Core-Skin1-Assets";
+			target = C8A5498C7C763FE3C45339A115993398 /* Skins-Core-Skin1-Assets */;
+			targetProxy = 34C48C7BD38E8D4D084728892016B7A8 /* PBXContainerItemProxy */;
 		};
 		94A91D1AADEBC57E9B61A97DD00B7976 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -675,7 +761,7 @@
 /* Begin XCBuildConfiguration section */
 		0367423B6704B818FBCEBA84601259EE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FBE46B0B44F404A34F5C6F929E50889 /* Skins-Core-Skin1.xcconfig */;
+			baseConfigurationReference = DD2AC945031F3492D54F4DE9001D462F /* Skins-Core-Skin1.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Skins-Core-Skin1";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -730,7 +816,7 @@
 		};
 		363D8D13641536371CBC30B5780FE110 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDF3178E6B814386DCCB8D6B25B88E5E /* Skins-Core-Skin2.xcconfig */;
+			baseConfigurationReference = 4207ADA29B9C0957AA4D0B61B03FA70E /* Skins-Core-Skin2.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -765,7 +851,7 @@
 		};
 		4A19216124AD9F61740C4646E3923E1C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDF3178E6B814386DCCB8D6B25B88E5E /* Skins-Core-Skin2.xcconfig */;
+			baseConfigurationReference = 4207ADA29B9C0957AA4D0B61B03FA70E /* Skins-Core-Skin2.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -883,6 +969,23 @@
 			};
 			name = Release;
 		};
+		77A3C78FBE78173DDC707727812E9222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD2AC945031F3492D54F4DE9001D462F /* Skins-Core-Skin1.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Skins-Core-Skin1";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Skins-Core-Skin1/ResourceBundle-Assets-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Assets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		828B9DE1D3CB472DD4D9544B2E930BDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E74679B4C56F4D231819CCDE84E68A56 /* Pods-Client1.debug.xcconfig */;
@@ -924,7 +1027,7 @@
 		};
 		A3151903FC29448BFF5C9D6DF63F0CAD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FBE46B0B44F404A34F5C6F929E50889 /* Skins-Core-Skin1.xcconfig */;
+			baseConfigurationReference = DD2AC945031F3492D54F4DE9001D462F /* Skins-Core-Skin1.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -958,7 +1061,7 @@
 		};
 		ABA738FCD069BB2AB7F35C692A1161F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FBE46B0B44F404A34F5C6F929E50889 /* Skins-Core-Skin1.xcconfig */;
+			baseConfigurationReference = DD2AC945031F3492D54F4DE9001D462F /* Skins-Core-Skin1.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1076,7 +1179,7 @@
 		};
 		D9F31AFF927DB6098D12C028DCA6AF8C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FBE46B0B44F404A34F5C6F929E50889 /* Skins-Core-Skin1.xcconfig */;
+			baseConfigurationReference = DD2AC945031F3492D54F4DE9001D462F /* Skins-Core-Skin1.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Skins-Core-Skin1";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1084,6 +1187,23 @@
 				INFOPLIST_FILE = "Target Support Files/Skins-Core-Skin1/ResourceBundle-Fonts-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = Fonts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E7D2C9851AFA1929F6602F7FE1DDC2AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD2AC945031F3492D54F4DE9001D462F /* Skins-Core-Skin1.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Skins-Core-Skin1";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Skins-Core-Skin1/ResourceBundle-Assets-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Assets;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1135,6 +1255,15 @@
 			buildConfigurations = (
 				363D8D13641536371CBC30B5780FE110 /* Debug */,
 				4A19216124AD9F61740C4646E3923E1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92890E4094FD9958E2888022D662948E /* Build configuration list for PBXNativeTarget "Skins-Core-Skin1-Assets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A3C78FBE78173DDC707727812E9222 /* Debug */,
+				E7D2C9851AFA1929F6602F7FE1DDC2AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

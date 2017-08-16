@@ -26,8 +26,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xXk-rv-QTC">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A TITLE LABEL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zoa-ZQ-FMT">
-                                <rect key="frame" x="122.5" y="324" width="130" height="20"/>
+                                <rect key="frame" x="122.5" y="52" width="130" height="20"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -35,16 +38,22 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Zoa-ZQ-FMT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8xU-O4-Fdm"/>
+                            <constraint firstItem="xXk-rv-QTC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Bjn-VE-VeK"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xXk-rv-QTC" secondAttribute="bottom" id="Eoo-dl-6eG"/>
                             <constraint firstItem="Zoa-ZQ-FMT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="F15-bn-Ga5"/>
+                            <constraint firstItem="xXk-rv-QTC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="JsA-1q-JXX"/>
+                            <constraint firstAttribute="trailing" secondItem="xXk-rv-QTC" secondAttribute="trailing" id="ai3-D1-mgc"/>
+                            <constraint firstItem="Zoa-ZQ-FMT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="32" id="gno-Xu-aCm"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="backgroundImageView" destination="xXk-rv-QTC" id="e0M-Il-NOI"/>
                         <outlet property="titleLabel" destination="Zoa-ZQ-FMT" id="DhU-F3-rdN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="155.17241379310346"/>
         </scene>
     </scenes>
 </document>

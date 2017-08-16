@@ -7,12 +7,7 @@ extension Bundle {
 
     static let skinBundle = Bundle(for: BundleFlag.self)
 
-    static let fontBundle: Bundle! = {
-        guard let fontBundleUrl = skinBundle.url(forResource: "Fonts", withExtension: "bundle") else {
-            assertionFailure("Failed to find Fonts.bundle in Skin")
-            return nil
-        }
+    static let fontBundle: Bundle! = Bundle.skinBundle.loadNestedBundle(named: "Fonts")
 
-        return Bundle(url: fontBundleUrl)
-    }()
+    static let assetBundle: Bundle! = Bundle.skinBundle.loadNestedBundle(named: "Assets")
 }

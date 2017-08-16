@@ -43,7 +43,8 @@ Contains all the Skins that can be applied to an app.
     ss.dependency 'Skins/Core'
     ss.source_files = 'Skins/Skin1/Classes/**/*'
     ss.resource_bundles = {
-        'Fonts' => 'Skins/Skin1/Assets/Fonts/*'
+        'Fonts' => 'Skins/Skin1/Assets/Fonts/*',
+        'Assets' => 'Skins/Skin1/Assets/Assets/*'
     }
   end
 

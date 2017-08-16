@@ -40,7 +40,8 @@
       },
       "source_files": "Skins/Skin1/Classes/**/*",
       "resource_bundles": {
-        "Fonts": "Skins/Skin1/Assets/Fonts/*"
+        "Fonts": "Skins/Skin1/Assets/Fonts/*",
+        "Assets": "Skins/Skin1/Assets/Assets/*"
       }
     },
     {
