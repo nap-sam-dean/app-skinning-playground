@@ -12,9 +12,13 @@ import Skin
 
 class ViewController: UIViewController {
 
+    @IBOutlet private var titleLabel: UILabel?
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.view.backgroundColor = UIColor.title
+
+        self.titleLabel?.font = UIFont.title
     }
 }

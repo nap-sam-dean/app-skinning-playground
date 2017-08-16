@@ -7,27 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B2BCDB82E5BB40D77C4A940E705E80F /* UIColor+skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF26C0723B3A67CECF683C71BE578590 /* UIColor+skin.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0015BA53A79012808610A841B19E2379 /* UIFont+skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFBD019112F3F22F36D673C7B5ADF64 /* UIFont+skin.swift */; };
+		02E646976AB36E51E3D58A62A486B3F6 /* BundleFontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C494FC7741FD071F697C3A5F2E15D4A /* BundleFontLoader.swift */; };
 		0F627802D2911E0CC99B0E9941B12C14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		114C4C0A802F69D1FB2F830CD4B09AF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		1952EF963A5E9F11B5D468B07E7BDF8A /* Skins-Core-Skin1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D317596EFA2ABA488285A8376D83031 /* Skins-Core-Skin1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B4C2BB845D2761396F4EF7BB3EF8AE8 /* Skins-Core-Skin2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75DFD7B27734F49AD688594BBAD00DD2 /* Skins-Core-Skin2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1952EF963A5E9F11B5D468B07E7BDF8A /* Skins-Core-Skin1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 616FD014D382E0E9121C3F1FEFF434B4 /* Skins-Core-Skin1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B4C2BB845D2761396F4EF7BB3EF8AE8 /* Skins-Core-Skin2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5529EF62371447AA239CD39E06210F4B /* Skins-Core-Skin2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B76CAA85AEBAF2CFA21EA100FC99B4B /* Pods-Client1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 377B2640954A5CDB082BBD5B1A545A36 /* Pods-Client1-dummy.m */; };
+		2B3DCB06ECFD818860362627EFAB4DFC /* BundleFontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C494FC7741FD071F697C3A5F2E15D4A /* BundleFontLoader.swift */; };
 		33A095220A1FCD61695792EF1610A4D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		39E97963FACE512D1C935FC4583076FE /* Pods-Client2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6981E9C5667651B948B243617EE22687 /* Pods-Client2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A3BB1887E27B3F2392F76FEB8FA5B3E /* Pods-Client2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C732B88B1A768958F45C9CDCC44FFD /* Pods-Client2-dummy.m */; };
-		4E7894811E1C0CAD710A1CEA2BB2FAA0 /* UIColor+skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16C695FA87ED6BF35DBDC91F2842EC4 /* UIColor+skin.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3CEBC485FAB3E6F41EF764061DE3EB2E /* Skins-Core-Skin1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F16674E078F7D3D1CCD0BD5E9A33685E /* Skins-Core-Skin1-dummy.m */; };
+		55CBD573A4E9D1A917E2E7C7134FDEED /* Fonts.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1A39E43FC52EA8B7E2C0B60858631572 /* Fonts.bundle */; };
+		6904814FD39465F88D92D1B6B19BE412 /* UIFont+skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E00CCEFA6F543B8AC3F910611B9780 /* UIFont+skin.swift */; };
 		6BCBABC9726881A1AD9A8D0F8131091D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		723F288F30AE0F61846537BE1441807B /* Skins-Core-Skin2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9AAD1D90C5DE5895657EEB1D021C56 /* Skins-Core-Skin2-dummy.m */; };
 		779C3E955EF79B5DBE21D4E12AEC1BB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		86FBA7DC33284412E539AA993BCA2144 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		A5DF2ECE3E4182ED44A68749611C3AD8 /* Skins-Core-Skin2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B95B246BED3891CAEA71350DBD4192 /* Skins-Core-Skin2-dummy.m */; };
 		AB4417B421E4AE31984A5614E04AA405 /* Pods-Client1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86F02D3AEFE6895A831E5FEABA67F730 /* Pods-Client1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC374A92400510C3EF037DE76093FD2E /* Skins-Core-Skin1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B734DDBBB76AD3322D39AAE983DDDC2C /* Skins-Core-Skin1-dummy.m */; };
-		C08AEF751586F1B74F4E8CCA1FAEBE47 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3158EE65D87C324AF3163F1CBD1F145F /* ReplaceMe.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F3D4AAA520C1E28D3AF93A20196707D4 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3158EE65D87C324AF3163F1CBD1F145F /* ReplaceMe.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E59F4AB6E7C7BF9752030E58E8D665D8 /* Akkurat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5EF2EC16B5AD193D812505223090403D /* Akkurat-Regular.otf */; };
+		E960BA64C6E90339B83EF3165E7B681B /* UIColor+skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86867E1AA2F1F8DA8A40B77358335472 /* UIColor+skin.swift */; };
+		F943B554575A7F00BE97B1CCB3DB73DF /* UIColor+skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2E3A3CDBE0875A5C3B11E60020265B /* UIColor+skin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		02653CC9D0D044735C81E3131931EF92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9653CFF565EDAB82BFE49452ABA4A1AF;
+			remoteInfo = "Skins-Core-Skin1-Fonts";
+		};
 		B53A6D098B3EAD16E92334B0A1055438 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -45,48 +56,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01A31DF183DB54AFBD80F1492B72BB53 /* Skins-Core-Skin2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "Skins-Core-Skin2.modulemap"; path = "../Skins-Core-Skin2/Skins-Core-Skin2.modulemap"; sourceTree = "<group>"; };
 		12D6395BC9CC3CCBB6E661ACC9E58FB6 /* Pods-Client2-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Client2-acknowledgements.plist"; sourceTree = "<group>"; };
 		141F288D96A914022C54930DA2A82033 /* Pods-Client1-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Client1-acknowledgements.plist"; sourceTree = "<group>"; };
-		14B2143FBE23004C18CB792845F53BDC /* Pods_Client1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Client1.framework; path = "Pods-Client1.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A39E43FC52EA8B7E2C0B60858631572 /* Fonts.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fonts.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EDC5C55C60FC9D24ADCA8D750E275E1 /* Skin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Skin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C161744BBB2DA0412CAEBA5EE2AF5B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3158EE65D87C324AF3163F1CBD1F145F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		2EC48526327A25AFBBD033961F78051F /* Skin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Skin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3731FEC981E9F2D377560C8A85FF9237 /* Pods-Client2-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Client2-frameworks.sh"; sourceTree = "<group>"; };
 		377B2640954A5CDB082BBD5B1A545A36 /* Pods-Client1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Client1-dummy.m"; sourceTree = "<group>"; };
-		413E0932C0467119ED3C40CE8A5D66E7 /* Skins-Core-Skin1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Skins-Core-Skin1.modulemap"; sourceTree = "<group>"; };
-		4FE0E84420DBDE8CF392D58D28A89C78 /* Pods-Client1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Client1.modulemap"; sourceTree = "<group>"; };
+		39DC57491F4345E01A4550ACFB95011C /* Skins-Core-Skin1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Skins-Core-Skin1.modulemap"; sourceTree = "<group>"; };
+		3B949304F671F9DC82F49401A529DB4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Skins-Core-Skin2/Info.plist"; sourceTree = "<group>"; };
+		4FE0E84420DBDE8CF392D58D28A89C78 /* Pods-Client1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Client1.modulemap"; sourceTree = "<group>"; };
+		5529EF62371447AA239CD39E06210F4B /* Skins-Core-Skin2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Skins-Core-Skin2-umbrella.h"; path = "../Skins-Core-Skin2/Skins-Core-Skin2-umbrella.h"; sourceTree = "<group>"; };
+		57E00CCEFA6F543B8AC3F910611B9780 /* UIFont+skin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIFont+skin.swift"; sourceTree = "<group>"; };
+		5EF2EC16B5AD193D812505223090403D /* Akkurat-Regular.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "Akkurat-Regular.otf"; sourceTree = "<group>"; };
+		614FE48DA35F27E64E8EDEA78F2375D6 /* Pods_Client1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Client1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		616FD014D382E0E9121C3F1FEFF434B4 /* Skins-Core-Skin1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Skins-Core-Skin1-umbrella.h"; sourceTree = "<group>"; };
 		66A92C8A57AE16B2DB478495310BDABB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6981E9C5667651B948B243617EE22687 /* Pods-Client2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Client2-umbrella.h"; sourceTree = "<group>"; };
 		6B62FF770C246A1381EA5B2EFFA4E455 /* Pods-Client1-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Client1-frameworks.sh"; sourceTree = "<group>"; };
-		6D317596EFA2ABA488285A8376D83031 /* Skins-Core-Skin1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Skins-Core-Skin1-umbrella.h"; sourceTree = "<group>"; };
-		75DFD7B27734F49AD688594BBAD00DD2 /* Skins-Core-Skin2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Skins-Core-Skin2-umbrella.h"; path = "../Skins-Core-Skin2/Skins-Core-Skin2-umbrella.h"; sourceTree = "<group>"; };
-		787A65E1A2E5BC8C4D51F462027D9549 /* Pods-Client2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Client2.modulemap"; sourceTree = "<group>"; };
+		6C494FC7741FD071F697C3A5F2E15D4A /* BundleFontLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BundleFontLoader.swift; sourceTree = "<group>"; };
+		6EE4F0FD3A6DB5C9B8EAD7468B1FA92C /* Skins-Core-Skin2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Skins-Core-Skin2-prefix.pch"; path = "../Skins-Core-Skin2/Skins-Core-Skin2-prefix.pch"; sourceTree = "<group>"; };
+		70B40CABBA3F8B960CBBB61CFF0E1DF9 /* Skins-Core-Skin2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Skins-Core-Skin2.modulemap"; path = "../Skins-Core-Skin2/Skins-Core-Skin2.modulemap"; sourceTree = "<group>"; };
+		787A65E1A2E5BC8C4D51F462027D9549 /* Pods-Client2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Client2.modulemap"; sourceTree = "<group>"; };
+		7FFBD019112F3F22F36D673C7B5ADF64 /* UIFont+skin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIFont+skin.swift"; sourceTree = "<group>"; };
 		839B68049D7293A772D09AA57B3C846B /* Pods-Client2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Client2.debug.xcconfig"; sourceTree = "<group>"; };
 		85C732B88B1A768958F45C9CDCC44FFD /* Pods-Client2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Client2-dummy.m"; sourceTree = "<group>"; };
+		86867E1AA2F1F8DA8A40B77358335472 /* UIColor+skin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+skin.swift"; sourceTree = "<group>"; };
 		86F02D3AEFE6895A831E5FEABA67F730 /* Pods-Client1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Client1-umbrella.h"; sourceTree = "<group>"; };
 		89360F47BE8A05BA30FC3329434B92E2 /* Pods-Client1-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Client1-acknowledgements.markdown"; sourceTree = "<group>"; };
-		89B95B246BED3891CAEA71350DBD4192 /* Skins-Core-Skin2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Skins-Core-Skin2-dummy.m"; path = "../Skins-Core-Skin2/Skins-Core-Skin2-dummy.m"; sourceTree = "<group>"; };
 		8B7B8435089D82B185887F72D1A80618 /* Pods-Client1-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Client1-resources.sh"; sourceTree = "<group>"; };
-		8C01D86826A99DA7CF2EC9619AF28AD4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		938C74D043ED0F6ABCD1E8160DD28E6D /* Skin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Skin.framework; path = "Skins-Core-Skin1.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8FBE46B0B44F404A34F5C6F929E50889 /* Skins-Core-Skin1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Skins-Core-Skin1.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		990CD0278A14B5D8AE4896EE11802A66 /* Pods-Client2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Client2.release.xcconfig"; sourceTree = "<group>"; };
-		9F6471BC29FA1825EF46F491653983CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Skins-Core-Skin2/Info.plist"; sourceTree = "<group>"; };
 		A3DD7DABCE350ADF00FBE412732A654F /* Pods-Client2-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Client2-resources.sh"; sourceTree = "<group>"; };
-		AB53529DD14C7F171E97A6F253CC2107 /* Pods_Client2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Client2.framework; path = "Pods-Client2.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF26C0723B3A67CECF683C71BE578590 /* UIColor+skin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+skin.swift"; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B734DDBBB76AD3322D39AAE983DDDC2C /* Skins-Core-Skin1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Skins-Core-Skin1-dummy.m"; sourceTree = "<group>"; };
-		C16C695FA87ED6BF35DBDC91F2842EC4 /* UIColor+skin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+skin.swift"; sourceTree = "<group>"; };
-		C459304B963E596F30F35BB3CB327AD6 /* Skins-Core-Skin2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Skins-Core-Skin2.xcconfig"; path = "../Skins-Core-Skin2/Skins-Core-Skin2.xcconfig"; sourceTree = "<group>"; };
+		B6ABA2BF3C3FC83C0DA9189B66AF4E31 /* ResourceBundle-Fonts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Fonts-Info.plist"; sourceTree = "<group>"; };
+		BAA9B0144734E3E68DE87E2C43E0D540 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD9AAD1D90C5DE5895657EEB1D021C56 /* Skins-Core-Skin2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Skins-Core-Skin2-dummy.m"; path = "../Skins-Core-Skin2/Skins-Core-Skin2-dummy.m"; sourceTree = "<group>"; };
+		D53366AB560824F347207AF2216F9531 /* Pods_Client2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Client2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DA59E7F8FDA75FA5EC8859EEFFA8D6EE /* Skin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Skin.framework; path = "Skins-Core-Skin2.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA60C28E4FDFE2669AF4843CC395BCAA /* Skins-Core-Skin1-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Skins-Core-Skin1-prefix.pch"; sourceTree = "<group>"; };
-		E06B77C098B578BFA1032590BE1FB33B /* Skins-Core-Skin1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Skins-Core-Skin1.xcconfig"; sourceTree = "<group>"; };
-		E33057B38DB163997F50D7928EB6277A /* Skins-Core-Skin2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Skins-Core-Skin2-prefix.pch"; path = "../Skins-Core-Skin2/Skins-Core-Skin2-prefix.pch"; sourceTree = "<group>"; };
+		D9D2A1C83780DEAAA73CABD47DFB8F85 /* Skins-Core-Skin1-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Skins-Core-Skin1-prefix.pch"; sourceTree = "<group>"; };
+		DE2E3A3CDBE0875A5C3B11E60020265B /* UIColor+skin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+skin.swift"; sourceTree = "<group>"; };
+		E55629C61F44A14A0052FEF0 /* SnellRoundhand.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = SnellRoundhand.ttc; sourceTree = "<group>"; };
 		E5D63EE99203447D6A47DDD43FD04CA3 /* Pods-Client1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Client1.release.xcconfig"; sourceTree = "<group>"; };
 		E74679B4C56F4D231819CCDE84E68A56 /* Pods-Client1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Client1.debug.xcconfig"; sourceTree = "<group>"; };
+		F16674E078F7D3D1CCD0BD5E9A33685E /* Skins-Core-Skin1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Skins-Core-Skin1-dummy.m"; sourceTree = "<group>"; };
 		FBD410047A3A0667C34C2261ED115671 /* Pods-Client2-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Client2-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FDF3178E6B814386DCCB8D6B25B88E5E /* Skins-Core-Skin2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Skins-Core-Skin2.xcconfig"; path = "../Skins-Core-Skin2/Skins-Core-Skin2.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +113,13 @@
 			files = (
 				33A095220A1FCD61695792EF1610A4D6 /* Foundation.framework in Frameworks */,
 				779C3E955EF79B5DBE21D4E12AEC1BB2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5555AC573B5426290F741B83E8690338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,14 +151,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B090E21F2ACA124814DFEFE3EB7781D /* Skin1 */ = {
-			isa = PBXGroup;
-			children = (
-				9B5DE80AE2197F3FEF49D90585776E9A /* Skins */,
-			);
-			name = Skin1;
-			sourceTree = "<group>";
-		};
 		1FC9664F91302BD45D255315698D2FFC /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,32 +178,38 @@
 			path = "Target Support Files/Pods-Client1";
 			sourceTree = "<group>";
 		};
-		26B1C06AA240BECCEBF620F546F22ED4 /* Skin2 */ = {
-			isa = PBXGroup;
-			children = (
-				AF26C0723B3A67CECF683C71BE578590 /* UIColor+skin.swift */,
-			);
-			name = Skin2;
-			path = Skin2;
-			sourceTree = "<group>";
-		};
 		2897FAF68A451209AB484E7FD19FC587 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				64D18CB4D3E0D449349992ABF967FF7C /* Skins */,
+				8752798CF41D982997FC30256F11B7BD /* Skins */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		3B1117460E115D68BEECC32302F09CDE /* Products */ = {
+		2BA53675448EED638036D3FC9EB1EBEF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				14B2143FBE23004C18CB792845F53BDC /* Pods_Client1.framework */,
-				AB53529DD14C7F171E97A6F253CC2107 /* Pods_Client2.framework */,
-				DA59E7F8FDA75FA5EC8859EEFFA8D6EE /* Skin.framework */,
-				938C74D043ED0F6ABCD1E8160DD28E6D /* Skin.framework */,
+				DE2E3A3CDBE0875A5C3B11E60020265B /* UIColor+skin.swift */,
+				7FFBD019112F3F22F36D673C7B5ADF64 /* UIFont+skin.swift */,
 			);
-			name = Products;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3C33052705D124B04F32BC38B3CB2FF4 /* Skin1 */ = {
+			isa = PBXGroup;
+			children = (
+				52E56006BC9FDC2BEB606C809B84BAC6 /* Resources */,
+				AB2C031A8D28D784521672E479720841 /* Skins */,
+			);
+			name = Skin1;
+			sourceTree = "<group>";
+		};
+		3E7E13EC1BBF3CC0F0D5463576D83AFB /* Skins */ = {
+			isa = PBXGroup;
+			children = (
+				8B5B4690268B070953D64B1CDE672841 /* Skin2 */,
+			);
+			path = Skins;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -207,50 +229,59 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		50F913B7A73D871B4304C50A5D6D336B /* Skins */ = {
+		44B06A59797220A1EA0B6485A90440BF /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				DA47B076D8E589C5BD4D13285AFD19F8 /* Classes */,
+				6F999E50DF473F074EBA34AD8771A03F /* Skins */,
 			);
-			name = Skins;
+			name = Core;
+			sourceTree = "<group>";
+		};
+		51C2BEA91C9F2702C80A1E2852AE358A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EC0B95A16DC7B47575CE495771ABFD40 /* Fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		52E56006BC9FDC2BEB606C809B84BAC6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				68037D3E26E43FEB66C696AD431EE367 /* Skins */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		68037D3E26E43FEB66C696AD431EE367 /* Skins */ = {
+			isa = PBXGroup;
+			children = (
+				83BF313202FAB96EE2FA847FAC1D4546 /* Skin1 */,
+			);
 			path = Skins;
 			sourceTree = "<group>";
 		};
-		64D18CB4D3E0D449349992ABF967FF7C /* Skins */ = {
+		6F999E50DF473F074EBA34AD8771A03F /* Skins */ = {
 			isa = PBXGroup;
 			children = (
-				72C099D96BC21F15BDBEF85739AA6C3F /* Core */,
-				1B090E21F2ACA124814DFEFE3EB7781D /* Skin1 */,
-				D10B72131033C80E6CFCCA873FAACE6E /* Skin2 */,
-				DE638B5181FC4991531938995BA5E49F /* Support Files */,
+				7B46235B1996C6E9B08D06EA2208C8AC /* Core */,
 			);
-			name = Skins;
-			path = ../../Skins;
+			path = Skins;
 			sourceTree = "<group>";
 		};
-		72C099D96BC21F15BDBEF85739AA6C3F /* Core */ = {
+		73BD7AB62909086B4BE993E0048C0BA4 /* Skin1 */ = {
 			isa = PBXGroup;
 			children = (
-				50F913B7A73D871B4304C50A5D6D336B /* Skins */,
+				2BA53675448EED638036D3FC9EB1EBEF /* Classes */,
 			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		730AF9CCF0353248634C792771011404 /* Skin1 */ = {
-			isa = PBXGroup;
-			children = (
-				C16C695FA87ED6BF35DBDC91F2842EC4 /* UIColor+skin.swift */,
-			);
-			name = Skin1;
 			path = Skin1;
 			sourceTree = "<group>";
 		};
-		7535DFD60F831BAFD58A2AEC4EA88D18 /* Core */ = {
+		7B46235B1996C6E9B08D06EA2208C8AC /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				3158EE65D87C324AF3163F1CBD1F145F /* ReplaceMe.swift */,
+				6C494FC7741FD071F697C3A5F2E15D4A /* BundleFontLoader.swift */,
 			);
-			name = Core;
 			path = Core;
 			sourceTree = "<group>";
 		};
@@ -260,18 +291,70 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				2897FAF68A451209AB484E7FD19FC587 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				3B1117460E115D68BEECC32302F09CDE /* Products */,
+				7FA5981D53B432E8E7EE3674287541BD /* Products */,
 				1FC9664F91302BD45D255315698D2FFC /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9B5DE80AE2197F3FEF49D90585776E9A /* Skins */ = {
+		7FA5981D53B432E8E7EE3674287541BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D93D0400E418CA09E1532A9BD0F6E198 /* Classes */,
+				1A39E43FC52EA8B7E2C0B60858631572 /* Fonts.bundle */,
+				614FE48DA35F27E64E8EDEA78F2375D6 /* Pods_Client1.framework */,
+				D53366AB560824F347207AF2216F9531 /* Pods_Client2.framework */,
+				1EDC5C55C60FC9D24ADCA8D750E275E1 /* Skin.framework */,
+				2EC48526327A25AFBBD033961F78051F /* Skin.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83BF313202FAB96EE2FA847FAC1D4546 /* Skin1 */ = {
+			isa = PBXGroup;
+			children = (
+				51C2BEA91C9F2702C80A1E2852AE358A /* Assets */,
+			);
+			path = Skin1;
+			sourceTree = "<group>";
+		};
+		84BD3A096299997F4AB430382EDC8500 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B949304F671F9DC82F49401A529DB4B /* Info.plist */,
+				BAA9B0144734E3E68DE87E2C43E0D540 /* Info.plist */,
+				B6ABA2BF3C3FC83C0DA9189B66AF4E31 /* ResourceBundle-Fonts-Info.plist */,
+				39DC57491F4345E01A4550ACFB95011C /* Skins-Core-Skin1.modulemap */,
+				8FBE46B0B44F404A34F5C6F929E50889 /* Skins-Core-Skin1.xcconfig */,
+				F16674E078F7D3D1CCD0BD5E9A33685E /* Skins-Core-Skin1-dummy.m */,
+				D9D2A1C83780DEAAA73CABD47DFB8F85 /* Skins-Core-Skin1-prefix.pch */,
+				616FD014D382E0E9121C3F1FEFF434B4 /* Skins-Core-Skin1-umbrella.h */,
+				70B40CABBA3F8B960CBBB61CFF0E1DF9 /* Skins-Core-Skin2.modulemap */,
+				FDF3178E6B814386DCCB8D6B25B88E5E /* Skins-Core-Skin2.xcconfig */,
+				BD9AAD1D90C5DE5895657EEB1D021C56 /* Skins-Core-Skin2-dummy.m */,
+				6EE4F0FD3A6DB5C9B8EAD7468B1FA92C /* Skins-Core-Skin2-prefix.pch */,
+				5529EF62371447AA239CD39E06210F4B /* Skins-Core-Skin2-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Client/Pods/Target Support Files/Skins-Core-Skin1";
+			sourceTree = "<group>";
+		};
+		8752798CF41D982997FC30256F11B7BD /* Skins */ = {
+			isa = PBXGroup;
+			children = (
+				44B06A59797220A1EA0B6485A90440BF /* Core */,
+				3C33052705D124B04F32BC38B3CB2FF4 /* Skin1 */,
+				F38DB8EE6F6D084D7AEA7B9CE4C4AA9A /* Skin2 */,
+				84BD3A096299997F4AB430382EDC8500 /* Support Files */,
 			);
 			name = Skins;
-			path = Skins;
+			path = ../../Skins;
+			sourceTree = "<group>";
+		};
+		8B5B4690268B070953D64B1CDE672841 /* Skin2 */ = {
+			isa = PBXGroup;
+			children = (
+				CC3388AF494585C81D42771BB62F3900 /* Classes */,
+			);
+			path = Skin2;
 			sourceTree = "<group>";
 		};
 		9F26FDA5020FA405EFCE5571ED538A2E /* Pods-Client2 */ = {
@@ -292,68 +375,38 @@
 			path = "Target Support Files/Pods-Client2";
 			sourceTree = "<group>";
 		};
-		D10B72131033C80E6CFCCA873FAACE6E /* Skin2 */ = {
+		AB2C031A8D28D784521672E479720841 /* Skins */ = {
 			isa = PBXGroup;
 			children = (
-				F8D8F53BBB8E36B312A7608A1E02A4C8 /* Skins */,
+				73BD7AB62909086B4BE993E0048C0BA4 /* Skin1 */,
+			);
+			path = Skins;
+			sourceTree = "<group>";
+		};
+		CC3388AF494585C81D42771BB62F3900 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				86867E1AA2F1F8DA8A40B77358335472 /* UIColor+skin.swift */,
+				57E00CCEFA6F543B8AC3F910611B9780 /* UIFont+skin.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EC0B95A16DC7B47575CE495771ABFD40 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E55629C61F44A14A0052FEF0 /* SnellRoundhand.ttc */,
+				5EF2EC16B5AD193D812505223090403D /* Akkurat-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F38DB8EE6F6D084D7AEA7B9CE4C4AA9A /* Skin2 */ = {
+			isa = PBXGroup;
+			children = (
+				3E7E13EC1BBF3CC0F0D5463576D83AFB /* Skins */,
 			);
 			name = Skin2;
-			sourceTree = "<group>";
-		};
-		D93D0400E418CA09E1532A9BD0F6E198 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				730AF9CCF0353248634C792771011404 /* Skin1 */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		DA47B076D8E589C5BD4D13285AFD19F8 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				7535DFD60F831BAFD58A2AEC4EA88D18 /* Core */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		DDB9F4E293420C21E1557CB58F807FF1 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				26B1C06AA240BECCEBF620F546F22ED4 /* Skin2 */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		DE638B5181FC4991531938995BA5E49F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9F6471BC29FA1825EF46F491653983CF /* Info.plist */,
-				8C01D86826A99DA7CF2EC9619AF28AD4 /* Info.plist */,
-				413E0932C0467119ED3C40CE8A5D66E7 /* Skins-Core-Skin1.modulemap */,
-				E06B77C098B578BFA1032590BE1FB33B /* Skins-Core-Skin1.xcconfig */,
-				B734DDBBB76AD3322D39AAE983DDDC2C /* Skins-Core-Skin1-dummy.m */,
-				DA60C28E4FDFE2669AF4843CC395BCAA /* Skins-Core-Skin1-prefix.pch */,
-				6D317596EFA2ABA488285A8376D83031 /* Skins-Core-Skin1-umbrella.h */,
-				01A31DF183DB54AFBD80F1492B72BB53 /* Skins-Core-Skin2.modulemap */,
-				C459304B963E596F30F35BB3CB327AD6 /* Skins-Core-Skin2.xcconfig */,
-				89B95B246BED3891CAEA71350DBD4192 /* Skins-Core-Skin2-dummy.m */,
-				E33057B38DB163997F50D7928EB6277A /* Skins-Core-Skin2-prefix.pch */,
-				75DFD7B27734F49AD688594BBAD00DD2 /* Skins-Core-Skin2-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Client/Pods/Target Support Files/Skins-Core-Skin1";
-			sourceTree = "<group>";
-		};
-		F8D8F53BBB8E36B312A7608A1E02A4C8 /* Skins */ = {
-			isa = PBXGroup;
-			children = (
-				DDB9F4E293420C21E1557CB58F807FF1 /* Classes */,
-			);
-			name = Skins;
-			path = Skins;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -398,17 +451,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48AA188B55A0F2CDC3C2625EF197B36B /* Build configuration list for PBXNativeTarget "Skins-Core-Skin1" */;
 			buildPhases = (
-				71E56CA3E9BA919D6440A4C8426DA89A /* Sources */,
+				DB6CD4AC2D72837E96998B53B7122AE8 /* Sources */,
 				FC125CC26886C2B30071292F5AD3A9FF /* Frameworks */,
+				4D4478349F60E56AE3C7B518E65B113F /* Resources */,
 				C6B4900B3A7C12681D366A28C2571FE1 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9D323B443B8C073139629DEEC1F20A38 /* PBXTargetDependency */,
 			);
 			name = "Skins-Core-Skin1";
 			productName = "Skins-Core-Skin1";
-			productReference = 938C74D043ED0F6ABCD1E8160DD28E6D /* Skin.framework */;
+			productReference = 2EC48526327A25AFBBD033961F78051F /* Skin.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7E1296E21F3FBCD18A1C8FB6296343EB /* Pods-Client2 */ = {
@@ -426,14 +481,14 @@
 			);
 			name = "Pods-Client2";
 			productName = "Pods-Client2";
-			productReference = AB53529DD14C7F171E97A6F253CC2107 /* Pods_Client2.framework */;
+			productReference = D53366AB560824F347207AF2216F9531 /* Pods_Client2.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7F6DC98CB7BBFCE53F6B3BFDDDE587EE /* Skins-Core-Skin2 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55381211DEBBA4A4BE36FEB1AF00AB00 /* Build configuration list for PBXNativeTarget "Skins-Core-Skin2" */;
 			buildPhases = (
-				74668D69BA0001C0A9C5A7825FE84EAF /* Sources */,
+				AD363805BEA0B52A4F292F8DD31DECEF /* Sources */,
 				1765DB132CC518E06F80402AFEB31789 /* Frameworks */,
 				A15F1866D7A3345F4CD6EBBB0523A13B /* Headers */,
 			);
@@ -443,8 +498,25 @@
 			);
 			name = "Skins-Core-Skin2";
 			productName = "Skins-Core-Skin2";
-			productReference = DA59E7F8FDA75FA5EC8859EEFFA8D6EE /* Skin.framework */;
+			productReference = 1EDC5C55C60FC9D24ADCA8D750E275E1 /* Skin.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		9653CFF565EDAB82BFE49452ABA4A1AF /* Skins-Core-Skin1-Fonts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25BB6F576EFA86E59FB46E65A72B0928 /* Build configuration list for PBXNativeTarget "Skins-Core-Skin1-Fonts" */;
+			buildPhases = (
+				29288BB2752607B703FF4B581F71A7AB /* Sources */,
+				5555AC573B5426290F741B83E8690338 /* Frameworks */,
+				CCF07EE90CDB9177B0DF8AC734012F3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Skins-Core-Skin1-Fonts";
+			productName = "Skins-Core-Skin1-Fonts";
+			productReference = 1A39E43FC52EA8B7E2C0B60858631572 /* Fonts.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		DDC5E7027F24BB48BF53B5ED444B01F5 /* Pods-Client1 */ = {
 			isa = PBXNativeTarget;
@@ -461,7 +533,7 @@
 			);
 			name = "Pods-Client1";
 			productName = "Pods-Client1";
-			productReference = 14B2143FBE23004C18CB792845F53BDC /* Pods_Client1.framework */;
+			productReference = 614FE48DA35F27E64E8EDEA78F2375D6 /* Pods_Client1.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -481,19 +553,46 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3B1117460E115D68BEECC32302F09CDE /* Products */;
+			productRefGroup = 7FA5981D53B432E8E7EE3674287541BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				DDC5E7027F24BB48BF53B5ED444B01F5 /* Pods-Client1 */,
 				7E1296E21F3FBCD18A1C8FB6296343EB /* Pods-Client2 */,
 				0C446013EDEAE6657AABE629833953D2 /* Skins-Core-Skin1 */,
+				9653CFF565EDAB82BFE49452ABA4A1AF /* Skins-Core-Skin1-Fonts */,
 				7F6DC98CB7BBFCE53F6B3BFDDDE587EE /* Skins-Core-Skin2 */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		4D4478349F60E56AE3C7B518E65B113F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CBD573A4E9D1A917E2E7C7134FDEED /* Fonts.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF07EE90CDB9177B0DF8AC734012F3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59F4AB6E7C7BF9752030E58E8D665D8 /* Akkurat-Regular.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		29288BB2752607B703FF4B581F71A7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2C79F304CD33CF5D859EB937315395F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -510,23 +609,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71E56CA3E9BA919D6440A4C8426DA89A /* Sources */ = {
+		AD363805BEA0B52A4F292F8DD31DECEF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C08AEF751586F1B74F4E8CCA1FAEBE47 /* ReplaceMe.swift in Sources */,
-				BC374A92400510C3EF037DE76093FD2E /* Skins-Core-Skin1-dummy.m in Sources */,
-				4E7894811E1C0CAD710A1CEA2BB2FAA0 /* UIColor+skin.swift in Sources */,
+				02E646976AB36E51E3D58A62A486B3F6 /* BundleFontLoader.swift in Sources */,
+				723F288F30AE0F61846537BE1441807B /* Skins-Core-Skin2-dummy.m in Sources */,
+				E960BA64C6E90339B83EF3165E7B681B /* UIColor+skin.swift in Sources */,
+				6904814FD39465F88D92D1B6B19BE412 /* UIFont+skin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74668D69BA0001C0A9C5A7825FE84EAF /* Sources */ = {
+		DB6CD4AC2D72837E96998B53B7122AE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3D4AAA520C1E28D3AF93A20196707D4 /* ReplaceMe.swift in Sources */,
-				A5DF2ECE3E4182ED44A68749611C3AD8 /* Skins-Core-Skin2-dummy.m in Sources */,
-				0B2BCDB82E5BB40D77C4A940E705E80F /* UIColor+skin.swift in Sources */,
+				2B3DCB06ECFD818860362627EFAB4DFC /* BundleFontLoader.swift in Sources */,
+				3CEBC485FAB3E6F41EF764061DE3EB2E /* Skins-Core-Skin1-dummy.m in Sources */,
+				F943B554575A7F00BE97B1CCB3DB73DF /* UIColor+skin.swift in Sources */,
+				0015BA53A79012808610A841B19E2379 /* UIFont+skin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,9 +646,32 @@
 			target = 7F6DC98CB7BBFCE53F6B3BFDDDE587EE /* Skins-Core-Skin2 */;
 			targetProxy = B53A6D098B3EAD16E92334B0A1055438 /* PBXContainerItemProxy */;
 		};
+		9D323B443B8C073139629DEEC1F20A38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Skins-Core-Skin1-Fonts";
+			target = 9653CFF565EDAB82BFE49452ABA4A1AF /* Skins-Core-Skin1-Fonts */;
+			targetProxy = 02653CC9D0D044735C81E3131931EF92 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0367423B6704B818FBCEBA84601259EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FBE46B0B44F404A34F5C6F929E50889 /* Skins-Core-Skin1.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Skins-Core-Skin1";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Skins-Core-Skin1/ResourceBundle-Fonts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Fonts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		1875966FB2535E0EA89F5F48F7C6FD56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 990CD0278A14B5D8AE4896EE11802A66 /* Pods-Client2.release.xcconfig */;
@@ -576,6 +700,75 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_Client2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		363D8D13641536371CBC30B5780FE110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF3178E6B814386DCCB8D6B25B88E5E /* Skins-Core-Skin2.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Skins-Core-Skin2/Skins-Core-Skin2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Skins-Core-Skin2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Skins-Core-Skin2/Skins-Core-Skin2.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Skin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4A19216124AD9F61740C4646E3923E1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF3178E6B814386DCCB8D6B25B88E5E /* Skins-Core-Skin2.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Skins-Core-Skin2/Skins-Core-Skin2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Skins-Core-Skin2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Skins-Core-Skin2/Skins-Core-Skin2.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Skin;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -672,41 +865,6 @@
 			};
 			name = Release;
 		};
-		733999C118D749641801B64E6608D5E1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C459304B963E596F30F35BB3CB327AD6 /* Skins-Core-Skin2.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Skins-Core-Skin2/Skins-Core-Skin2-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Skins-Core-Skin2/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Skins-Core-Skin2/Skins-Core-Skin2.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Skin;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		828B9DE1D3CB472DD4D9544B2E930BDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E74679B4C56F4D231819CCDE84E68A56 /* Pods-Client1.debug.xcconfig */;
@@ -735,6 +893,75 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_Client1;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3151903FC29448BFF5C9D6DF63F0CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FBE46B0B44F404A34F5C6F929E50889 /* Skins-Core-Skin1.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Skins-Core-Skin1/Skins-Core-Skin1-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Skins-Core-Skin1/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Skins-Core-Skin1/Skins-Core-Skin1.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Skin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ABA738FCD069BB2AB7F35C692A1161F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FBE46B0B44F404A34F5C6F929E50889 /* Skins-Core-Skin1.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Skins-Core-Skin1/Skins-Core-Skin1-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Skins-Core-Skin1/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Skins-Core-Skin1/Skins-Core-Skin1.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Skin;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -829,108 +1056,22 @@
 			};
 			name = Debug;
 		};
-		E410855BF49752CECE636FFE324BFB44 /* Release */ = {
+		D9F31AFF927DB6098D12C028DCA6AF8C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E06B77C098B578BFA1032590BE1FB33B /* Skins-Core-Skin1.xcconfig */;
+			baseConfigurationReference = 8FBE46B0B44F404A34F5C6F929E50889 /* Skins-Core-Skin1.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Skins-Core-Skin1";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Skins-Core-Skin1/Skins-Core-Skin1-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Skins-Core-Skin1/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Skins-Core-Skin1/Skins-Core-Skin1.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Skin;
+				INFOPLIST_FILE = "Target Support Files/Skins-Core-Skin1/ResourceBundle-Fonts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Fonts;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
-		};
-		F0A927EC0E1E987E783611FDE19AD9B7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C459304B963E596F30F35BB3CB327AD6 /* Skins-Core-Skin2.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Skins-Core-Skin2/Skins-Core-Skin2-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Skins-Core-Skin2/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Skins-Core-Skin2/Skins-Core-Skin2.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Skin;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F9515DDE33391353BF93B301993F5880 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E06B77C098B578BFA1032590BE1FB33B /* Skins-Core-Skin1.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Skins-Core-Skin1/Skins-Core-Skin1-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Skins-Core-Skin1/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Skins-Core-Skin1/Skins-Core-Skin1.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Skin;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -940,6 +1081,15 @@
 			buildConfigurations = (
 				828B9DE1D3CB472DD4D9544B2E930BDC /* Debug */,
 				63241F84CDF81183B720B59602A43F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25BB6F576EFA86E59FB46E65A72B0928 /* Build configuration list for PBXNativeTarget "Skins-Core-Skin1-Fonts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0367423B6704B818FBCEBA84601259EE /* Debug */,
+				D9F31AFF927DB6098D12C028DCA6AF8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -956,8 +1106,8 @@
 		48AA188B55A0F2CDC3C2625EF197B36B /* Build configuration list for PBXNativeTarget "Skins-Core-Skin1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F9515DDE33391353BF93B301993F5880 /* Debug */,
-				E410855BF49752CECE636FFE324BFB44 /* Release */,
+				ABA738FCD069BB2AB7F35C692A1161F5 /* Debug */,
+				A3151903FC29448BFF5C9D6DF63F0CAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -965,8 +1115,8 @@
 		55381211DEBBA4A4BE36FEB1AF00AB00 /* Build configuration list for PBXNativeTarget "Skins-Core-Skin2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				733999C118D749641801B64E6608D5E1 /* Debug */,
-				F0A927EC0E1E987E783611FDE19AD9B7 /* Release */,
+				363D8D13641536371CBC30B5780FE110 /* Debug */,
+				4A19216124AD9F61740C4646E3923E1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

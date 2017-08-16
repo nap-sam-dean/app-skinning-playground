@@ -34,27 +34,22 @@ Contains all the Skins that can be applied to an app.
 
   s.subspec 'Core' do |ss|
     ss.ios.deployment_target = '9.0'
-    ss.source_files = 'Skins/Classes/Core/**/*'
+    ss.source_files = 'Skins/Core/**/*'
     ss.frameworks = 'UIKit'
   end
 
   s.subspec 'Skin1' do |ss|
     ss.ios.deployment_target = '9.0'
     ss.dependency 'Skins/Core'
-    ss.source_files = 'Skins/Classes/Skin1/**/*'
+    ss.source_files = 'Skins/Skin1/Classes/**/*'
+    ss.resource_bundles = {
+        'Fonts' => 'Skins/Skin1/Assets/Fonts/*'
+    }
   end
 
   s.subspec 'Skin2' do |ss|
     ss.ios.deployment_target = '9.0'
     ss.dependency 'Skins/Core'
-    ss.source_files = 'Skins/Classes/Skin2/**/*'
+    ss.source_files = 'Skins/Skin2/Classes/**/*'
   end
-
-  # s.resource_bundles = {
-  #   'Skins' => ['Skins/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

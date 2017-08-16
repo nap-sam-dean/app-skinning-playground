@@ -1,8 +1,8 @@
 {
   "name": "Skins",
   "version": "0.1.0",
-  "summary": "A short description of Skins.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A library containing all the Skins.",
+  "description": "Contains all the Skins that can be applied to an app.",
   "homepage": "https://github.com/nap-sam-dean/Skins",
   "license": {
     "type": "MIT",
@@ -16,32 +16,44 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": null
   },
   "module_name": "Skin",
   "subspecs": [
     {
       "name": "Core",
-      "source_files": "Skins/Classes/Core/**/*",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "source_files": "Skins/Core/**/*",
       "frameworks": "UIKit"
     },
     {
       "name": "Skin1",
+      "platforms": {
+        "ios": "9.0"
+      },
       "dependencies": {
         "Skins/Core": [
 
         ]
       },
-      "source_files": "Skins/Classes/Skin1/**/*"
+      "source_files": "Skins/Skin1/Classes/**/*",
+      "resource_bundles": {
+        "Fonts": "Skins/Skin1/Assets/Fonts/*"
+      }
     },
     {
       "name": "Skin2",
+      "platforms": {
+        "ios": "9.0"
+      },
       "dependencies": {
         "Skins/Core": [
 
         ]
       },
-      "source_files": "Skins/Classes/Skin2/**/*"
+      "source_files": "Skins/Skin2/Classes/**/*"
     }
   ]
 }
