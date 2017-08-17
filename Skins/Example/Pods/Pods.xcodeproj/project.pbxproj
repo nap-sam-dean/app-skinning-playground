@@ -13,14 +13,13 @@
 		2E221C37D844235A17341161ABB5A12D /* Bundle+nested.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AE116DBD91C5F1AFAC85AB0515B3A7 /* Bundle+nested.swift */; };
 		2F50580CC38888606CF396BBAC3D508C /* UIBundle+skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612F7845A75D356E91685EB998BC74F2 /* UIBundle+skin.swift */; };
 		44180D002A62C586F69CD9D64D6973BB /* Pods-Skins_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1248A800412C9C766C31E420E5085E43 /* Pods-Skins_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49C520BA603B0CCC12350BB4A4FC6A0A /* Akkurat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5B6EA988D244648F4F6CE20DD72062DC /* Akkurat-Regular.otf */; };
-		6438E39752BD5FA375C05A457B138C70 /* SnellRoundhand.ttc in Resources */ = {isa = PBXBuildFile; fileRef = AF5A294C6EEECF8FFA49556176DD486C /* SnellRoundhand.ttc */; };
+		67D89ADCF089B482100515A8A47EA4A8 /* Akkurat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D1C9B38347917DFFD63EEE7752FD91A3 /* Akkurat-Regular.otf */; };
 		72D87E5896DDFD6C3A26C246188C2073 /* UIColor+skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AEB900F1A51CB514CE6F03C7A63A9A /* UIColor+skin.swift */; };
 		81A24BFE229709682C953D2846B651C7 /* Pods-Skins_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3F7BF502364787ED5668B12A2C8B13 /* Pods-Skins_Example-dummy.m */; };
 		8CBDA910373A68B3FFB3BC0AA4C8BC3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		8DEF122493EF9A7A494D22761AC995CA /* Pods-Skins_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E5F39DC45771C855594250A5C1EAFB /* Pods-Skins_Tests-dummy.m */; };
 		A4BA31211F78CD1A504AC61E734D28E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		AE548411EB9AB122FA1F7658D6A524B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D9E7BC01FA6852E7299122B34300B35 /* Images.xcassets */; };
+		AE548411EB9AB122FA1F7658D6A524B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C181395674F3FEF3B41E07B31A92B7B /* Images.xcassets */; };
 		B42122C457ACFD8DAA4DD59FD1F9AFD2 /* Skins-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7713EDE9FB4D5B8C1A3F1B8FBC7E80DE /* Skins-dummy.m */; };
 		B54764CEEB888F7A7DAF7ACD6F66D78C /* BundleFontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262AA068DD7286801A1E0853B3BD8016 /* BundleFontLoader.swift */; };
 		CA7145AA14A18D4089DC1E1B81E067F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
@@ -68,16 +67,15 @@
 		2EEC0FB08C41AA7EBE9D97BABB61B846 /* Pods-Skins_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Skins_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		47E829D29A378016F0C1DA395D306E7D /* Pods-Skins_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Skins_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		589659C5496AA175FD09C9911E4F89C1 /* Pods_Skins_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Skins_Example.framework; path = "Pods-Skins_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B6EA988D244648F4F6CE20DD72062DC /* Akkurat-Regular.otf */ = {isa = PBXFileReference; includeInIndex = 1; path = "Akkurat-Regular.otf"; sourceTree = "<group>"; };
 		612F7845A75D356E91685EB998BC74F2 /* UIBundle+skin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIBundle+skin.swift"; sourceTree = "<group>"; };
 		6376133451E38B5967D4DCCF89F37119 /* Fonts.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Fonts.bundle; path = Fonts.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D8F88605B0C7A6677DFF4FD87EFE9F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66ACDCE36BA28A9BD03E6DA5C5C43691 /* Skins.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Skins.xcconfig; sourceTree = "<group>"; };
 		6ACCE17E3AB796A0F2ADAE4B7AA53292 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C181395674F3FEF3B41E07B31A92B7B /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6C80F470868A4C2E602A6E9BAD7C4FB0 /* Pods-Skins_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Skins_Example-umbrella.h"; sourceTree = "<group>"; };
 		6D42FB9E75E1B73B5EE882E8B40B6395 /* UIFont+skin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIFont+skin.swift"; sourceTree = "<group>"; };
 		7713EDE9FB4D5B8C1A3F1B8FBC7E80DE /* Skins-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Skins-dummy.m"; sourceTree = "<group>"; };
-		7D9E7BC01FA6852E7299122B34300B35 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		807ECC6A5C77606753CF1BEEDCF8203B /* Pods-Skins_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Skins_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		81F2640D1D3B532BC5D29C8B9AC84314 /* Pods-Skins_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Skins_Example.modulemap"; sourceTree = "<group>"; };
 		8228E9EDDEECACB704DD41FBC9719EF1 /* Pods-Skins_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Skins_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -89,11 +87,11 @@
 		A61FC65A95AA54162E42C838BFB8545C /* Pods-Skins_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Skins_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A9E8BA7A44C97462902F84887F2006A1 /* Pods-Skins_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Skins_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AC178F3CDBB1C716CAFFECC8890E4341 /* Pods-Skins_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Skins_Tests.modulemap"; sourceTree = "<group>"; };
-		AF5A294C6EEECF8FFA49556176DD486C /* SnellRoundhand.ttc */ = {isa = PBXFileReference; includeInIndex = 1; path = SnellRoundhand.ttc; sourceTree = "<group>"; };
 		B47AFD4F43D550CF9D2321422EB82819 /* Pods-Skins_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Skins_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C4B56F4B02FF8D4E63B7622FE325392C /* Skins-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Skins-umbrella.h"; sourceTree = "<group>"; };
 		CEA08AD4DE909119BDB71DFC366B8813 /* Skin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Skin.framework; path = Skins.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C9B38347917DFFD63EEE7752FD91A3 /* Akkurat-Regular.otf */ = {isa = PBXFileReference; includeInIndex = 1; path = "Akkurat-Regular.otf"; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E11CA567D40344F3949A5D6C24114BDC /* Pods-Skins_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Skins_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E1A67530FF49875DEC17BE332EE97898 /* Skins-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Skins-prefix.pch"; sourceTree = "<group>"; };
@@ -165,7 +163,7 @@
 		02D9F4B4B238DE6F98724ABD4C686427 /* Skin1 */ = {
 			isa = PBXGroup;
 			children = (
-				3A763E09CA26977E6CBEEC61C4642E7E /* Assets */,
+				D1683DEE2DCAAA56C147F355DD77A9E7 /* Assets */,
 			);
 			name = Skin1;
 			path = Skin1;
@@ -189,6 +187,15 @@
 			path = "Target Support Files/Pods-Skins_Example";
 			sourceTree = "<group>";
 		};
+		193A50E032DE89AFB5819A2F33071802 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6C181395674F3FEF3B41E07B31A92B7B /* Images.xcassets */,
+			);
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		1DB4FBE8438ED3DE768CCF41DA85CA92 /* Skins */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,16 +217,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2064CDC9A22AC1FB1B55726365E4327C /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				5B6EA988D244648F4F6CE20DD72062DC /* Akkurat-Regular.otf */,
-				AF5A294C6EEECF8FFA49556176DD486C /* SnellRoundhand.ttc */,
-			);
-			name = Fonts;
-			path = Fonts;
-			sourceTree = "<group>";
-		};
 		2A8C08942915213ADEF6525313F8EB43 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -235,16 +232,6 @@
 				1DB4FBE8438ED3DE768CCF41DA85CA92 /* Skins */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		3A763E09CA26977E6CBEEC61C4642E7E /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				68F13CB042AB0C01555544ED7FE653CA /* Assets */,
-				2064CDC9A22AC1FB1B55726365E4327C /* Fonts */,
-			);
-			name = Assets;
-			path = Assets;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -299,15 +286,6 @@
 			);
 			name = Core;
 			path = Core;
-			sourceTree = "<group>";
-		};
-		68F13CB042AB0C01555544ED7FE653CA /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				7D9E7BC01FA6852E7299122B34300B35 /* Images.xcassets */,
-			);
-			name = Assets;
-			path = Assets;
 			sourceTree = "<group>";
 		};
 		6931C0BB4D8DEAA7CC8EF16AF0BFA138 /* Classes */ = {
@@ -375,6 +353,25 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Skins";
+			sourceTree = "<group>";
+		};
+		C68F21C9A5B4B097567D3AECFD3B23E3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D1C9B38347917DFFD63EEE7752FD91A3 /* Akkurat-Regular.otf */,
+			);
+			name = Fonts;
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D1683DEE2DCAAA56C147F355DD77A9E7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				193A50E032DE89AFB5819A2F33071802 /* Assets */,
+				C68F21C9A5B4B097567D3AECFD3B23E3 /* Fonts */,
+			);
+			name = Assets;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		D536ECCCCABE3CECC92E453F26980A88 /* Skin1 */ = {
@@ -460,7 +457,7 @@
 			buildPhases = (
 				B71C07DD7AE494F42D03107131166347 /* Sources */,
 				8988CD20AD21151BF98BA61429D8C2AE /* Frameworks */,
-				B08FCFB51776BF55EF00F7FB07080B8F /* Resources */,
+				650A2DCC66DE8E56B228931DD2790D45 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -544,12 +541,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B08FCFB51776BF55EF00F7FB07080B8F /* Resources */ = {
+		650A2DCC66DE8E56B228931DD2790D45 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49C520BA603B0CCC12350BB4A4FC6A0A /* Akkurat-Regular.otf in Resources */,
-				6438E39752BD5FA375C05A457B138C70 /* SnellRoundhand.ttc in Resources */,
+				67D89ADCF089B482100515A8A47EA4A8 /* Akkurat-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

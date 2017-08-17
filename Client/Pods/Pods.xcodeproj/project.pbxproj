@@ -24,17 +24,16 @@
 		6515D35CF8FF987D533A799275B0D9B1 /* BundleFontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3D6B7F857635849E5DDAD08F260837 /* BundleFontLoader.swift */; };
 		6BCBABC9726881A1AD9A8D0F8131091D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		7490C136997625C729979FF0DB72AA5D /* UIImage+skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675B201DB897BADA28D523CC1C70880 /* UIImage+skin.swift */; };
-		773DF6E6CA6C3668E924A28AB9A4B58B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7413A82372F24AE75B4EB0937C7951 /* Images.xcassets */; };
+		773DF6E6CA6C3668E924A28AB9A4B58B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFCD9B3323535121A122EDE3F5E15C92 /* Images.xcassets */; };
 		779C3E955EF79B5DBE21D4E12AEC1BB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		84B6000FD01FCCAE11FBF8D81011A0A2 /* UIImage+skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31BA753E996F44B0C36F2EEC7469BDF /* UIImage+skin.swift */; };
 		86FBA7DC33284412E539AA993BCA2144 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		90D4091336CD8A9A4714B0BB01F176B9 /* BundleFontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3D6B7F857635849E5DDAD08F260837 /* BundleFontLoader.swift */; };
-		A80176F2E7EDD59475970E4A2E705D3A /* SnellRoundhand.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 12A68B25843C30C01476F3EE88630C3B /* SnellRoundhand.ttc */; };
-		A917D00867DC2F0706365636AF9099C1 /* Akkurat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C50016D24342DF86B8EEDD80BC82312 /* Akkurat-Regular.otf */; };
 		AB4417B421E4AE31984A5614E04AA405 /* Pods-Client1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86F02D3AEFE6895A831E5FEABA67F730 /* Pods-Client1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C154C1CEA210223B450B81771C5A0FC2 /* Bundle+nested.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682DABC63FA65DAC31C600D099AA7C03 /* Bundle+nested.swift */; };
 		D7A8D5E9AB2DD0ED61E03379FC978E7B /* UIFont+skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F6ED6A4708363A25D7E2290DF7C97 /* UIFont+skin.swift */; };
 		DACACB4F6AA777192BF86ADD0FED72F1 /* Bundle+nested.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682DABC63FA65DAC31C600D099AA7C03 /* Bundle+nested.swift */; };
+		E56B94651F459D2100B7EB2E /* Luminari.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E56B94641F459CF500B7EB2E /* Luminari.ttf */; };
 		FB9800AE61FC6FB135460473D1F5A5F3 /* Assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6A0D7BBC53E09781FC9F534DFABFDFF6 /* Assets.bundle */; };
 		FE337C643A36605C97668E7F44425239 /* Skins-Core-Skin1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 204AB3FBAA693AC9AD62BCB4C910F5EC /* Skins-Core-Skin1-dummy.m */; };
 /* End PBXBuildFile section */
@@ -71,48 +70,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		12A68B25843C30C01476F3EE88630C3B /* SnellRoundhand.ttc */ = {isa = PBXFileReference; includeInIndex = 1; path = SnellRoundhand.ttc; sourceTree = "<group>"; };
 		12D6395BC9CC3CCBB6E661ACC9E58FB6 /* Pods-Client2-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Client2-acknowledgements.plist"; sourceTree = "<group>"; };
 		141F288D96A914022C54930DA2A82033 /* Pods-Client1-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Client1-acknowledgements.plist"; sourceTree = "<group>"; };
 		1CFE015AAE043C872528FFFDE5932B3C /* ResourceBundle-Fonts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Fonts-Info.plist"; sourceTree = "<group>"; };
 		204AB3FBAA693AC9AD62BCB4C910F5EC /* Skins-Core-Skin1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Skins-Core-Skin1-dummy.m"; sourceTree = "<group>"; };
-		26256BA60C96A62CBE021078BFC682EE /* Pods_Client1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Client1.framework; path = "Pods-Client1.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26256BA60C96A62CBE021078BFC682EE /* Pods_Client1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Client1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C161744BBB2DA0412CAEBA5EE2AF5B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30C208B5210D545110A152595B6F9509 /* Skins-Core-Skin2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Skins-Core-Skin2-prefix.pch"; path = "../Skins-Core-Skin2/Skins-Core-Skin2-prefix.pch"; sourceTree = "<group>"; };
 		325F46AED6E252802298D181CC5A09BA /* Skins-Core-Skin2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Skins-Core-Skin2-dummy.m"; path = "../Skins-Core-Skin2/Skins-Core-Skin2-dummy.m"; sourceTree = "<group>"; };
 		3731FEC981E9F2D377560C8A85FF9237 /* Pods-Client2-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Client2-frameworks.sh"; sourceTree = "<group>"; };
 		377B2640954A5CDB082BBD5B1A545A36 /* Pods-Client1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Client1-dummy.m"; sourceTree = "<group>"; };
 		4207ADA29B9C0957AA4D0B61B03FA70E /* Skins-Core-Skin2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Skins-Core-Skin2.xcconfig"; path = "../Skins-Core-Skin2/Skins-Core-Skin2.xcconfig"; sourceTree = "<group>"; };
-		45865BC77021DE64EF093DF04A6B17C3 /* Skins-Core-Skin2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "Skins-Core-Skin2.modulemap"; path = "../Skins-Core-Skin2/Skins-Core-Skin2.modulemap"; sourceTree = "<group>"; };
+		45865BC77021DE64EF093DF04A6B17C3 /* Skins-Core-Skin2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Skins-Core-Skin2.modulemap"; path = "../Skins-Core-Skin2/Skins-Core-Skin2.modulemap"; sourceTree = "<group>"; };
 		4D0B158A1BF6EE46E52D3B4A196473FB /* UIColor+skin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+skin.swift"; sourceTree = "<group>"; };
-		4FE0E84420DBDE8CF392D58D28A89C78 /* Pods-Client1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Client1.modulemap"; sourceTree = "<group>"; };
+		4FE0E84420DBDE8CF392D58D28A89C78 /* Pods-Client1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Client1.modulemap"; sourceTree = "<group>"; };
 		66A92C8A57AE16B2DB478495310BDABB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		682DABC63FA65DAC31C600D099AA7C03 /* Bundle+nested.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Bundle+nested.swift"; sourceTree = "<group>"; };
 		6981E9C5667651B948B243617EE22687 /* Pods-Client2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Client2-umbrella.h"; sourceTree = "<group>"; };
-		6A0D7BBC53E09781FC9F534DFABFDFF6 /* Assets.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Assets.bundle; path = Assets.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		6AFF48063212270F2FF1EADE4723097E /* Fonts.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Fonts.bundle; path = Fonts.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A0D7BBC53E09781FC9F534DFABFDFF6 /* Assets.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assets.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AFF48063212270F2FF1EADE4723097E /* Fonts.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fonts.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B62FF770C246A1381EA5B2EFFA4E455 /* Pods-Client1-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Client1-frameworks.sh"; sourceTree = "<group>"; };
 		70289935D5B3DEA423ED7D1D23B86B87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Skins-Core-Skin2/Info.plist"; sourceTree = "<group>"; };
-		703F20049B5009A1EC0DD8869651F499 /* Skins-Core-Skin1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Skins-Core-Skin1.modulemap"; sourceTree = "<group>"; };
+		703F20049B5009A1EC0DD8869651F499 /* Skins-Core-Skin1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Skins-Core-Skin1.modulemap"; sourceTree = "<group>"; };
 		768D18A1AF1F4AE4DC54E7FED7975994 /* UIColor+skin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+skin.swift"; sourceTree = "<group>"; };
 		77107750605E3368E202FCF997717116 /* ResourceBundle-Assets-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Assets-Info.plist"; sourceTree = "<group>"; };
-		787A65E1A2E5BC8C4D51F462027D9549 /* Pods-Client2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Client2.modulemap"; sourceTree = "<group>"; };
+		787A65E1A2E5BC8C4D51F462027D9549 /* Pods-Client2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Client2.modulemap"; sourceTree = "<group>"; };
 		81A1292556499A4B2CD9BB3452630B31 /* UIBundle+skin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIBundle+skin.swift"; sourceTree = "<group>"; };
 		839B68049D7293A772D09AA57B3C846B /* Pods-Client2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Client2.debug.xcconfig"; sourceTree = "<group>"; };
 		85C732B88B1A768958F45C9CDCC44FFD /* Pods-Client2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Client2-dummy.m"; sourceTree = "<group>"; };
 		86F02D3AEFE6895A831E5FEABA67F730 /* Pods-Client1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Client1-umbrella.h"; sourceTree = "<group>"; };
 		89360F47BE8A05BA30FC3329434B92E2 /* Pods-Client1-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Client1-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8B7B8435089D82B185887F72D1A80618 /* Pods-Client1-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Client1-resources.sh"; sourceTree = "<group>"; };
-		8C50016D24342DF86B8EEDD80BC82312 /* Akkurat-Regular.otf */ = {isa = PBXFileReference; includeInIndex = 1; path = "Akkurat-Regular.otf"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		968CF553AD7D92F144F39F829F47C7F7 /* Pods_Client2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Client2.framework; path = "Pods-Client2.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		968CF553AD7D92F144F39F829F47C7F7 /* Pods_Client2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Client2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		990CD0278A14B5D8AE4896EE11802A66 /* Pods-Client2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Client2.release.xcconfig"; sourceTree = "<group>"; };
-		993C15A50282755621B700B0CC753B4F /* Skin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Skin.framework; path = "Skins-Core-Skin1.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		993C15A50282755621B700B0CC753B4F /* Skin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Skin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E6BE31956303D450C8EC4ED7224D4D5 /* Skins-Core-Skin2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Skins-Core-Skin2-umbrella.h"; path = "../Skins-Core-Skin2/Skins-Core-Skin2-umbrella.h"; sourceTree = "<group>"; };
 		9E9F6ED6A4708363A25D7E2290DF7C97 /* UIFont+skin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIFont+skin.swift"; sourceTree = "<group>"; };
 		A3DD7DABCE350ADF00FBE412732A654F /* Pods-Client2-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Client2-resources.sh"; sourceTree = "<group>"; };
-		AB7413A82372F24AE75B4EB0937C7951 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		AC677E82ED693DF2B2FCDBA04693F02C /* Skin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Skin.framework; path = "Skins-Core-Skin2.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC677E82ED693DF2B2FCDBA04693F02C /* Skin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Skin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACCA65760E8C2CA678CE9EDED4793EFF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B719A91CAED8219E5E679F19D5258849 /* Skins-Core-Skin1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Skins-Core-Skin1-umbrella.h"; sourceTree = "<group>"; };
@@ -122,6 +118,8 @@
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DD2AC945031F3492D54F4DE9001D462F /* Skins-Core-Skin1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Skins-Core-Skin1.xcconfig"; sourceTree = "<group>"; };
 		DF3D6B7F857635849E5DDAD08F260837 /* BundleFontLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BundleFontLoader.swift; sourceTree = "<group>"; };
+		DFCD9B3323535121A122EDE3F5E15C92 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E56B94641F459CF500B7EB2E /* Luminari.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Luminari.ttf; sourceTree = "<group>"; };
 		E5D63EE99203447D6A47DDD43FD04CA3 /* Pods-Client1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Client1.release.xcconfig"; sourceTree = "<group>"; };
 		E74679B4C56F4D231819CCDE84E68A56 /* Pods-Client1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Client1.debug.xcconfig"; sourceTree = "<group>"; };
 		F8A4C002F9D78304E3990D6D5159949E /* UIFont+skin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIFont+skin.swift"; sourceTree = "<group>"; };
@@ -200,7 +198,6 @@
 				F8A4C002F9D78304E3990D6D5159949E /* UIFont+skin.swift */,
 				D675B201DB897BADA28D523CC1C70880 /* UIImage+skin.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -252,16 +249,6 @@
 			path = "Target Support Files/Pods-Client1";
 			sourceTree = "<group>";
 		};
-		27C098DCDD0A3036F42D279C85897C53 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				A50DC1451E130BFDBBAADBFB4C35667B /* Assets */,
-				6FB8050D714CCD074BFA0D9919426681 /* Fonts */,
-			);
-			name = Assets;
-			path = Assets;
-			sourceTree = "<group>";
-		};
 		2897FAF68A451209AB484E7FD19FC587 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,9 +260,8 @@
 		33034B3B30620B7342F50EF2861FAB72 /* Skin1 */ = {
 			isa = PBXGroup;
 			children = (
-				27C098DCDD0A3036F42D279C85897C53 /* Assets */,
+				61DDD00E2602E6A83B11CAB6B99D0C34 /* Assets */,
 			);
-			name = Skin1;
 			path = Skin1;
 			sourceTree = "<group>";
 		};
@@ -318,14 +304,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6FB8050D714CCD074BFA0D9919426681 /* Fonts */ = {
+		61266DBBBB331472197D0FFB006A11D1 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				8C50016D24342DF86B8EEDD80BC82312 /* Akkurat-Regular.otf */,
-				12A68B25843C30C01476F3EE88630C3B /* SnellRoundhand.ttc */,
+				DFCD9B3323535121A122EDE3F5E15C92 /* Images.xcassets */,
 			);
-			name = Fonts;
-			path = Fonts;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		61DDD00E2602E6A83B11CAB6B99D0C34 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				61266DBBBB331472197D0FFB006A11D1 /* Assets */,
+				EA30037DA9B20E0B756B4FE5BB36276C /* Fonts */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		7A8D5C62787E327E805A6F0EF685DAFF /* Skin1 */ = {
@@ -333,7 +326,6 @@
 			children = (
 				06D54B6A236257A60373F27D4108E819 /* Classes */,
 			);
-			name = Skin1;
 			path = Skin1;
 			sourceTree = "<group>";
 		};
@@ -342,7 +334,6 @@
 			children = (
 				E08688B6EC5D224799ABD7CB50A90036 /* Classes */,
 			);
-			name = Skin2;
 			path = Skin2;
 			sourceTree = "<group>";
 		};
@@ -351,7 +342,6 @@
 			children = (
 				7A8D5C62787E327E805A6F0EF685DAFF /* Skin1 */,
 			);
-			name = Skins;
 			path = Skins;
 			sourceTree = "<group>";
 		};
@@ -371,7 +361,6 @@
 			children = (
 				33034B3B30620B7342F50EF2861FAB72 /* Skin1 */,
 			);
-			name = Skins;
 			path = Skins;
 			sourceTree = "<group>";
 		};
@@ -381,7 +370,6 @@
 				682DABC63FA65DAC31C600D099AA7C03 /* Bundle+nested.swift */,
 				DF3D6B7F857635849E5DDAD08F260837 /* BundleFontLoader.swift */,
 			);
-			name = Core;
 			path = Core;
 			sourceTree = "<group>";
 		};
@@ -412,15 +400,6 @@
 			path = "Target Support Files/Pods-Client2";
 			sourceTree = "<group>";
 		};
-		A50DC1451E130BFDBBAADBFB4C35667B /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				AB7413A82372F24AE75B4EB0937C7951 /* Images.xcassets */,
-			);
-			name = Assets;
-			path = Assets;
-			sourceTree = "<group>";
-		};
 		CB8783B4EA6FFD1CD20081F592C9712D /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -436,7 +415,6 @@
 				9E9F6ED6A4708363A25D7E2290DF7C97 /* UIFont+skin.swift */,
 				D31BA753E996F44B0C36F2EEC7469BDF /* UIImage+skin.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -448,12 +426,19 @@
 			name = Skin2;
 			sourceTree = "<group>";
 		};
+		EA30037DA9B20E0B756B4FE5BB36276C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E56B94641F459CF500B7EB2E /* Luminari.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		ECDC35E74D149061C026D5AE9804B569 /* Skins */ = {
 			isa = PBXGroup;
 			children = (
 				7AE9B1B1998514E6D510FDAF9B1F73B0 /* Skin2 */,
 			);
-			name = Skins;
 			path = Skins;
 			sourceTree = "<group>";
 		};
@@ -462,7 +447,6 @@
 			children = (
 				90B2AEDF4A49DFBC28B9DFC2A0C26704 /* Core */,
 			);
-			name = Skins;
 			path = Skins;
 			sourceTree = "<group>";
 		};
@@ -565,7 +549,7 @@
 			buildPhases = (
 				29288BB2752607B703FF4B581F71A7AB /* Sources */,
 				5555AC573B5426290F741B83E8690338 /* Frameworks */,
-				FDDD4C025675CDA097CAF1E13EADB4A9 /* Resources */,
+				CCF07EE90CDB9177B0DF8AC734012F3A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -660,12 +644,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDDD4C025675CDA097CAF1E13EADB4A9 /* Resources */ = {
+		CCF07EE90CDB9177B0DF8AC734012F3A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A917D00867DC2F0706365636AF9099C1 /* Akkurat-Regular.otf in Resources */,
-				A80176F2E7EDD59475970E4A2E705D3A /* SnellRoundhand.ttc in Resources */,
+				E56B94651F459D2100B7EB2E /* Luminari.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
