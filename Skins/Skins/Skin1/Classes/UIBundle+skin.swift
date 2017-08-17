@@ -3,7 +3,9 @@ import Foundation
 
 extension Bundle {
 
-    private class BundleFlag: NSObject { }
+    private class BundleFlag: NSObject {
+        private override init() { }
+    }
 
     static let skinBundle = Bundle(for: BundleFlag.self)
 
