@@ -85,7 +85,7 @@ final class BundleFontLoader {
         guard let font = UIFont(name: familyName, size: pointSize) else {
             return UIFont.systemFont(ofSize: pointSize)
         }
-        
+
         return font
     }
 }
